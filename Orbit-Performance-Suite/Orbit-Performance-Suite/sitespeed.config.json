@@ -1,0 +1,18 @@
+{
+  "html": {
+    "pageSummaryMetrics": [
+      "timings.pageLoadTime",
+      "timings.fullyLoaded",
+      "requests.total",
+      "transferSize.total",
+      "contentSize.total",
+      "googleWebVitals.largestContentfulPaint",
+      "googleWebVitals.timeToFirstByte",
+      "googleWebVitals.totalBlockingTime",
+      "thirdParty.requests",
+      "score.performance"
+    ],
+    "showAllWaterfallSummary": true,
+    "topListSize": 5
+  }
+}

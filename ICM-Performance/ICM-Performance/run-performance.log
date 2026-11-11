@@ -1,0 +1,1228 @@
+
+===== run-all-roles.cmd started 2026-09-07 17:00:38 =====
+No environment flag specified, defaulting to preprod.
+
+============================================================
+ Environment : preprod
+ Base URL    : https://preprod.app.pieq.ai
+ Extra args  : 
+============================================================
+
+[1/3] Running Ops Manager performance test...
+[2026-09-07 17:00:46] INFO: Versions OS: win32 10.0.26200 nodejs: v24.12.0 sitespeed.io: 42.6.0 browsertime: 28.3.0 coach: 9.2.1
+[2026-09-07 17:00:46] INFO: Running tests using Chrome - 3 iteration(s)
+[2026-09-07 17:00:50] INFO: Navigating to url https://preprod.app.pieq.ai/ iteration 1
+[2026-09-07 17:01:22] INFO: Filled #username
+[2026-09-07 17:01:24] INFO: Filled #password
+[2026-09-07 17:01:24] INFO: The AndWait methods are deprecated. Use commands.click(selector, { wait: true }) instead.
+[2026-09-07 17:01:32] INFO: Start to measure Dashboard
+[2026-09-07 17:01:33] INFO: Navigating to url https://preprod.app.pieq.ai/dashboard/ops-manager iteration 1
+[2026-09-07 17:01:45] INFO: Take after page complete check screenshot
+[2026-09-07 17:01:47] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:01:48] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:01:49] INFO: Start to measure Policy
+[2026-09-07 17:01:49] INFO: Navigating to url https://preprod.app.pieq.ai/policy iteration 1
+[2026-09-07 17:02:02] INFO: Take after page complete check screenshot
+[2026-09-07 17:02:02] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:02:03] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:02:04] INFO: Start to measure Statement History
+[2026-09-07 17:02:04] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/statement-history iteration 1
+[2026-09-07 17:02:17] INFO: Take after page complete check screenshot
+[2026-09-07 17:02:17] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:02:22] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:02:25] INFO: Start to measure Needs Attention
+[2026-09-07 17:02:25] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/needs-attention iteration 1
+[2026-09-07 17:02:39] INFO: Take after page complete check screenshot
+[2026-09-07 17:02:42] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:02:45] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:02:48] INFO: Start to measure Payable
+[2026-09-07 17:02:49] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/payable-line-items iteration 1
+[2026-09-07 17:03:00] INFO: Take after page complete check screenshot
+[2026-09-07 17:03:01] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:03:02] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:03:03] INFO: Start to measure User Management
+[2026-09-07 17:03:03] INFO: Navigating to url https://preprod.app.pieq.ai/user-management iteration 1
+[2026-09-07 17:03:16] INFO: Take after page complete check screenshot
+[2026-09-07 17:03:16] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:03:17] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:03:18] INFO: Start to measure Carriers
+[2026-09-07 17:03:18] INFO: Navigating to url https://preprod.app.pieq.ai/carriers iteration 1
+[2026-09-07 17:03:31] INFO: Take after page complete check screenshot
+[2026-09-07 17:03:32] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:03:32] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:03:34] INFO: Start to measure Agents
+[2026-09-07 17:03:34] INFO: Navigating to url https://preprod.app.pieq.ai/agents iteration 1
+[2026-09-07 17:03:46] INFO: Take after page complete check screenshot
+[2026-09-07 17:03:46] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:03:47] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:03:47] INFO: No element attached to the entry in largest-contentful-paint
+[2026-09-07 17:03:48] INFO: Start to measure Products
+[2026-09-07 17:03:48] INFO: Navigating to url https://preprod.app.pieq.ai/product iteration 1
+[2026-09-07 17:04:01] INFO: Take after page complete check screenshot
+[2026-09-07 17:04:01] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:04:02] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:04:03] INFO: Start to measure Commission Statement Setup
+[2026-09-07 17:04:03] INFO: Navigating to url https://preprod.app.pieq.ai/commissions/statement-setup iteration 1
+[2026-09-07 17:04:16] INFO: Take after page complete check screenshot
+[2026-09-07 17:04:17] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:04:19] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:04:20] INFO: Start to measure Advance Overview
+[2026-09-07 17:04:20] INFO: Navigating to url https://preprod.app.pieq.ai/advance/overview iteration 1
+[2026-09-07 17:04:34] INFO: Take after page complete check screenshot
+[2026-09-07 17:04:37] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:04:42] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:04:44] INFO: Start to measure Advance Setup
+[2026-09-07 17:04:44] INFO: Navigating to url https://preprod.app.pieq.ai/advance/advance-setup iteration 1
+[2026-09-07 17:04:56] INFO: Take after page complete check screenshot
+[2026-09-07 17:04:57] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:04:58] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:05:00] INFO: Start to measure Upload Commission Statement
+[2026-09-07 17:05:00] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/upload-statement iteration 1
+[2026-09-07 17:05:13] INFO: Take after page complete check screenshot
+[2026-09-07 17:05:13] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:05:14] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:05:15] INFO: Start to measure Disbursement History
+[2026-09-07 17:05:15] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/disbursement-history iteration 1
+[2026-09-07 17:05:28] INFO: Take after page complete check screenshot
+[2026-09-07 17:05:28] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:05:29] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:05:29] INFO: Start to measure Miscellaneous Charges
+[2026-09-07 17:05:29] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/miscellaneous-charges iteration 1
+[2026-09-07 17:05:42] INFO: Take after page complete check screenshot
+[2026-09-07 17:05:43] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:05:43] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:05:46] INFO: https://preprod.app.pieq.ai/dashboard/ops-manager TTFB: 1.30s DOMContentLoaded: 1.32s firstPaint: 1.57s LCP: 11.13s Load: 1.32s TBT: 722ms CLS:0.0040
+[2026-09-07 17:05:46] INFO: https://preprod.app.pieq.ai/policy TTFB: 1.34s DOMContentLoaded: 1.36s firstPaint: 1.62s LCP: 2.87s Load: 1.36s TBT: 271ms CLS:0.0040
+[2026-09-07 17:05:46] INFO: https://preprod.app.pieq.ai/commission-processing/statement-history TTFB: 1.30s DOMContentLoaded: 1.32s firstPaint: 1.64s LCP: 13.74s Load: 1.32s TBT: 284ms CLS:0.0040
+[2026-09-07 17:05:46] INFO: https://preprod.app.pieq.ai/commission-processing/needs-attention TTFB: 1.31s DOMContentLoaded: 1.34s firstPaint: 1.93s LCP: 12.48s Load: 1.34s TBT: 5.79s CLS:0.0061
+[2026-09-07 17:05:46] INFO: https://preprod.app.pieq.ai/payment-processing/payable-line-items TTFB: 1.32s DOMContentLoaded: 1.37s firstPaint: 2.08s LCP: 4.66s Load: 1.37s TBT: 883ms CLS:0.0054
+[2026-09-07 17:05:46] INFO: https://preprod.app.pieq.ai/user-management TTFB: 1.33s DOMContentLoaded: 1.35s firstPaint: 1.74s LCP: 13.53s Load: 1.35s TBT: 577ms CLS:0.0054
+[2026-09-07 17:05:46] INFO: https://preprod.app.pieq.ai/carriers TTFB: 1.64s DOMContentLoaded: 1.66s firstPaint: 1.98s LCP: 15.01s Load: 1.66s TBT: 361ms CLS:0.0040
+[2026-09-07 17:05:46] INFO: https://preprod.app.pieq.ai/agents TTFB: 467ms DOMContentLoaded: 486ms firstPaint: 836ms LCP: 13.13s Load: 487ms TBT: 592ms CLS:0.0040
+[2026-09-07 17:05:46] INFO: https://preprod.app.pieq.ai/product TTFB: 1.30s DOMContentLoaded: 1.31s firstPaint: 1.61s LCP: 14.86s Load: 1.32s TBT: 409ms CLS:0.0040
+[2026-09-07 17:05:46] INFO: https://preprod.app.pieq.ai/commissions/statement-setup TTFB: 1.32s DOMContentLoaded: 1.34s firstPaint: 1.67s LCP: 14.28s Load: 1.34s TBT: 541ms CLS:0.0068
+[2026-09-07 17:05:46] INFO: https://preprod.app.pieq.ai/advance/overview TTFB: 1.32s DOMContentLoaded: 1.34s firstPaint: 1.78s LCP: 16.80s Load: 1.34s TBT: 1.36s CLS:0.0061
+[2026-09-07 17:05:46] INFO: https://preprod.app.pieq.ai/advance/advance-setup TTFB: 1.32s DOMContentLoaded: 1.35s firstPaint: 2.27s LCP: 7.18s Load: 1.36s TBT: 3.34s CLS:0.0061
+[2026-09-07 17:05:46] INFO: https://preprod.app.pieq.ai/commission-processing/upload-statement TTFB: 1.31s DOMContentLoaded: 1.33s firstPaint: 1.77s LCP: 6.15s Load: 1.33s TBT: 1.00s CLS:0.0061
+[2026-09-07 17:05:46] INFO: https://preprod.app.pieq.ai/payment-processing/disbursement-history TTFB: 1.31s DOMContentLoaded: 1.34s firstPaint: 1.78s LCP: 5.67s Load: 1.34s TBT: 651ms CLS:0.0040
+[2026-09-07 17:05:46] INFO: https://preprod.app.pieq.ai/payment-processing/miscellaneous-charges TTFB: 1.28s DOMContentLoaded: 1.29s firstPaint: 1.62s LCP: 6.92s Load: 1.30s TBT: 486ms CLS:0.0054
+[2026-09-07 17:05:48] INFO: Navigating to url https://preprod.app.pieq.ai/ iteration 2
+[2026-09-07 17:06:06] INFO: Filled #username
+[2026-09-07 17:06:07] INFO: Filled #password
+[2026-09-07 17:06:07] INFO: The AndWait methods are deprecated. Use commands.click(selector, { wait: true }) instead.
+[2026-09-07 17:06:16] INFO: Start to measure Dashboard
+[2026-09-07 17:06:16] INFO: Navigating to url https://preprod.app.pieq.ai/dashboard/ops-manager iteration 2
+[2026-09-07 17:06:29] INFO: Take after page complete check screenshot
+[2026-09-07 17:06:30] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:06:31] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:06:33] INFO: Start to measure Policy
+[2026-09-07 17:06:33] INFO: Navigating to url https://preprod.app.pieq.ai/policy iteration 2
+[2026-09-07 17:06:45] INFO: Take after page complete check screenshot
+[2026-09-07 17:06:47] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:06:52] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:06:54] INFO: Start to measure Statement History
+[2026-09-07 17:06:54] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/statement-history iteration 2
+[2026-09-07 17:07:07] INFO: Take after page complete check screenshot
+[2026-09-07 17:07:07] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:07:08] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:07:09] INFO: Start to measure Needs Attention
+[2026-09-07 17:07:09] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/needs-attention iteration 2
+[2026-09-07 17:07:23] INFO: Take after page complete check screenshot
+[2026-09-07 17:07:23] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:07:24] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:07:25] INFO: Start to measure Payable
+[2026-09-07 17:07:25] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/payable-line-items iteration 2
+[2026-09-07 17:07:37] INFO: Take after page complete check screenshot
+[2026-09-07 17:07:38] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:07:38] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:07:40] INFO: Start to measure User Management
+[2026-09-07 17:07:40] INFO: Navigating to url https://preprod.app.pieq.ai/user-management iteration 2
+[2026-09-07 17:07:53] INFO: Take after page complete check screenshot
+[2026-09-07 17:07:53] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:07:54] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:07:55] INFO: Start to measure Carriers
+[2026-09-07 17:07:55] INFO: Navigating to url https://preprod.app.pieq.ai/carriers iteration 2
+[2026-09-07 17:08:08] INFO: Take after page complete check screenshot
+[2026-09-07 17:08:08] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:08:09] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:08:11] INFO: Start to measure Agents
+[2026-09-07 17:08:11] INFO: Navigating to url https://preprod.app.pieq.ai/agents iteration 2
+[2026-09-07 17:08:23] INFO: Take after page complete check screenshot
+[2026-09-07 17:08:24] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:08:25] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:08:26] INFO: Start to measure Products
+[2026-09-07 17:08:26] INFO: Navigating to url https://preprod.app.pieq.ai/product iteration 2
+[2026-09-07 17:08:39] INFO: Take after page complete check screenshot
+[2026-09-07 17:08:39] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:08:40] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:08:41] INFO: Start to measure Commission Statement Setup
+[2026-09-07 17:08:41] INFO: Navigating to url https://preprod.app.pieq.ai/commissions/statement-setup iteration 2
+[2026-09-07 17:08:54] INFO: Take after page complete check screenshot
+[2026-09-07 17:08:54] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:08:55] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:08:56] INFO: Start to measure Advance Overview
+[2026-09-07 17:08:56] INFO: Navigating to url https://preprod.app.pieq.ai/advance/overview iteration 2
+[2026-09-07 17:09:09] INFO: Take after page complete check screenshot
+[2026-09-07 17:09:09] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:09:10] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:09:11] INFO: Start to measure Advance Setup
+[2026-09-07 17:09:11] INFO: Navigating to url https://preprod.app.pieq.ai/advance/advance-setup iteration 2
+[2026-09-07 17:09:24] INFO: Take after page complete check screenshot
+[2026-09-07 17:09:24] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:09:25] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:09:26] INFO: Start to measure Upload Commission Statement
+[2026-09-07 17:09:26] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/upload-statement iteration 2
+[2026-09-07 17:09:38] INFO: Take after page complete check screenshot
+[2026-09-07 17:09:39] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:09:40] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:09:41] INFO: Start to measure Disbursement History
+[2026-09-07 17:09:41] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/disbursement-history iteration 2
+[2026-09-07 17:09:52] INFO: Take after page complete check screenshot
+[2026-09-07 17:09:53] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:09:54] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:09:55] INFO: Start to measure Miscellaneous Charges
+[2026-09-07 17:09:55] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/miscellaneous-charges iteration 2
+[2026-09-07 17:10:07] INFO: Take after page complete check screenshot
+[2026-09-07 17:10:08] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:10:09] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:10:11] INFO: https://preprod.app.pieq.ai/dashboard/ops-manager TTFB: 1.31s DOMContentLoaded: 1.34s firstPaint: 1.67s LCP: 13.38s Load: 1.34s TBT: 908ms CLS:0.0040
+[2026-09-07 17:10:11] INFO: https://preprod.app.pieq.ai/policy TTFB: 1.31s DOMContentLoaded: 1.34s firstPaint: 1.83s LCP: 19.38s Load: 1.34s TBT: 1.67s CLS:0.0074
+[2026-09-07 17:10:11] INFO: https://preprod.app.pieq.ai/commission-processing/statement-history TTFB: 1.29s DOMContentLoaded: 1.31s firstPaint: 1.72s LCP: 15.25s Load: 1.31s TBT: 468ms CLS:0.0040
+[2026-09-07 17:10:11] INFO: https://preprod.app.pieq.ai/commission-processing/needs-attention TTFB: 1.33s DOMContentLoaded: 1.35s firstPaint: 1.65s LCP: 5.78s Load: 1.35s TBT: 1.27s CLS:0.0040
+[2026-09-07 17:10:11] INFO: https://preprod.app.pieq.ai/payment-processing/payable-line-items TTFB: 1.32s DOMContentLoaded: 1.34s firstPaint: 1.67s LCP: 14.66s Load: 1.34s TBT: 476ms CLS:0.0054
+[2026-09-07 17:10:11] INFO: https://preprod.app.pieq.ai/user-management TTFB: 1.31s DOMContentLoaded: 1.49s firstPaint: 1.80s LCP: 14.45s Load: 1.49s TBT: 411ms CLS:0.0054
+[2026-09-07 17:10:11] INFO: https://preprod.app.pieq.ai/carriers TTFB: 1.30s DOMContentLoaded: 1.32s firstPaint: 1.60s LCP: 2.88s Load: 1.32s TBT: 453ms CLS:0.0040
+[2026-09-07 17:10:11] INFO: https://preprod.app.pieq.ai/agents TTFB: 1.31s DOMContentLoaded: 1.33s firstPaint: 1.67s LCP: 14.45s Load: 1.33s TBT: 422ms CLS:0.0040
+[2026-09-07 17:10:12] INFO: https://preprod.app.pieq.ai/product TTFB: 1.31s DOMContentLoaded: 1.33s firstPaint: 1.64s LCP: 14.65s Load: 1.33s TBT: 400ms CLS:0.0040
+[2026-09-07 17:10:12] INFO: https://preprod.app.pieq.ai/commissions/statement-setup TTFB: 1.30s DOMContentLoaded: 1.31s firstPaint: 1.60s LCP: 14.15s Load: 1.32s TBT: 330ms CLS:0.0040
+[2026-09-07 17:10:12] INFO: https://preprod.app.pieq.ai/advance/overview TTFB: 1.31s DOMContentLoaded: 1.32s firstPaint: 1.62s LCP: 13.98s Load: 1.32s TBT: 335ms CLS:0.0040
+[2026-09-07 17:10:12] INFO: https://preprod.app.pieq.ai/advance/advance-setup TTFB: 1.29s DOMContentLoaded: 1.31s firstPaint: 1.58s LCP: 4.75s Load: 1.31s TBT: 742ms CLS:0.0040
+[2026-09-07 17:10:12] INFO: https://preprod.app.pieq.ai/commission-processing/upload-statement TTFB: 1.30s DOMContentLoaded: 1.32s firstPaint: 1.57s LCP: 6.13s Load: 1.32s TBT: 368ms CLS:0.0040
+[2026-09-07 17:10:12] INFO: https://preprod.app.pieq.ai/payment-processing/disbursement-history TTFB: 1.28s DOMContentLoaded: 1.30s firstPaint: 1.65s LCP: 5.60s Load: 1.30s TBT: 815ms CLS:0.0040
+[2026-09-07 17:10:12] INFO: https://preprod.app.pieq.ai/payment-processing/miscellaneous-charges TTFB: 1.32s DOMContentLoaded: 1.34s firstPaint: 1.72s LCP: 4.50s Load: 1.34s TBT: 744ms CLS:0.0054
+[2026-09-07 17:10:13] INFO: Navigating to url https://preprod.app.pieq.ai/ iteration 3
+[2026-09-07 17:10:39] INFO: Filled #username
+[2026-09-07 17:10:50] INFO: Filled #password
+[2026-09-07 17:10:51] INFO: The AndWait methods are deprecated. Use commands.click(selector, { wait: true }) instead.
+[2026-09-07 17:11:04] INFO: Start to measure Dashboard
+[2026-09-07 17:11:04] INFO: Navigating to url https://preprod.app.pieq.ai/dashboard/ops-manager iteration 3
+[2026-09-07 17:11:15] INFO: Will check again if the browser has navigated to the page
+[2026-09-07 17:11:20] INFO: Take after page complete check screenshot
+[2026-09-07 17:11:21] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:11:22] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:11:23] INFO: Start to measure Policy
+[2026-09-07 17:11:23] INFO: Navigating to url https://preprod.app.pieq.ai/policy iteration 3
+[2026-09-07 17:11:36] INFO: Take after page complete check screenshot
+[2026-09-07 17:11:37] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:11:37] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:11:38] INFO: Start to measure Statement History
+[2026-09-07 17:11:38] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/statement-history iteration 3
+[2026-09-07 17:11:51] INFO: Take after page complete check screenshot
+[2026-09-07 17:11:52] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:11:52] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:11:53] INFO: Start to measure Needs Attention
+[2026-09-07 17:11:53] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/needs-attention iteration 3
+[2026-09-07 17:12:06] INFO: Take after page complete check screenshot
+[2026-09-07 17:12:07] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:12:07] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:12:08] INFO: Start to measure Payable
+[2026-09-07 17:12:08] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/payable-line-items iteration 3
+[2026-09-07 17:12:21] INFO: Take after page complete check screenshot
+[2026-09-07 17:12:21] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:12:22] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:12:23] INFO: Start to measure User Management
+[2026-09-07 17:12:23] INFO: Navigating to url https://preprod.app.pieq.ai/user-management iteration 3
+[2026-09-07 17:12:36] INFO: Take after page complete check screenshot
+[2026-09-07 17:12:36] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:12:37] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:12:38] INFO: Start to measure Carriers
+[2026-09-07 17:12:38] INFO: Navigating to url https://preprod.app.pieq.ai/carriers iteration 3
+[2026-09-07 17:12:50] INFO: Take after page complete check screenshot
+[2026-09-07 17:12:51] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:12:52] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:12:52] INFO: Start to measure Agents
+[2026-09-07 17:12:52] INFO: Navigating to url https://preprod.app.pieq.ai/agents iteration 3
+[2026-09-07 17:13:05] INFO: Take after page complete check screenshot
+[2026-09-07 17:13:06] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:13:06] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:13:08] INFO: Start to measure Products
+[2026-09-07 17:13:08] INFO: Navigating to url https://preprod.app.pieq.ai/product iteration 3
+[2026-09-07 17:13:20] INFO: Take after page complete check screenshot
+[2026-09-07 17:13:21] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:13:21] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:13:23] INFO: Start to measure Commission Statement Setup
+[2026-09-07 17:13:23] INFO: Navigating to url https://preprod.app.pieq.ai/commissions/statement-setup iteration 3
+[2026-09-07 17:13:36] INFO: Take after page complete check screenshot
+[2026-09-07 17:13:36] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:13:37] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:13:38] INFO: Start to measure Advance Overview
+[2026-09-07 17:13:38] INFO: Navigating to url https://preprod.app.pieq.ai/advance/overview iteration 3
+[2026-09-07 17:13:51] INFO: Take after page complete check screenshot
+[2026-09-07 17:13:52] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:13:52] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:13:53] INFO: Start to measure Advance Setup
+[2026-09-07 17:13:53] INFO: Navigating to url https://preprod.app.pieq.ai/advance/advance-setup iteration 3
+[2026-09-07 17:14:06] INFO: Take after page complete check screenshot
+[2026-09-07 17:14:06] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:14:07] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:14:08] INFO: Start to measure Upload Commission Statement
+[2026-09-07 17:14:08] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/upload-statement iteration 3
+[2026-09-07 17:14:19] INFO: Take after page complete check screenshot
+[2026-09-07 17:14:20] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:14:20] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:14:21] INFO: Start to measure Disbursement History
+[2026-09-07 17:14:21] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/disbursement-history iteration 3
+[2026-09-07 17:14:34] INFO: Take after page complete check screenshot
+[2026-09-07 17:14:35] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:14:35] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:14:36] INFO: Start to measure Miscellaneous Charges
+[2026-09-07 17:14:36] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/miscellaneous-charges iteration 3
+[2026-09-07 17:14:49] INFO: Take after page complete check screenshot
+[2026-09-07 17:14:50] INFO: Take cumulative layout shift screenshot
+[2026-09-07 17:14:50] INFO: Take largest contentful paint screenshot
+[2026-09-07 17:14:54] INFO: https://preprod.app.pieq.ai/dashboard/ops-manager TTFB: 1.31s DOMContentLoaded: 1.34s firstPaint: 1.63s LCP: 3.06s Load: 1.34s 
+[2026-09-07 17:14:54] INFO: https://preprod.app.pieq.ai/policy TTFB: 1.30s DOMContentLoaded: 1.32s firstPaint: 1.68s LCP: 2.97s Load: 1.32s TBT: 294ms CLS:0.0040
+[2026-09-07 17:14:54] INFO: https://preprod.app.pieq.ai/commission-processing/statement-history TTFB: 1.30s DOMContentLoaded: 1.32s firstPaint: 1.57s LCP: 13.72s Load: 1.32s TBT: 295ms CLS:0.0040
+[2026-09-07 17:14:54] INFO: https://preprod.app.pieq.ai/commission-processing/needs-attention TTFB: 1.31s DOMContentLoaded: 1.33s firstPaint: 1.58s LCP: 5.22s Load: 1.33s TBT: 426ms CLS:0.0061
+[2026-09-07 17:14:54] INFO: https://preprod.app.pieq.ai/payment-processing/payable-line-items TTFB: 1.28s DOMContentLoaded: 1.30s firstPaint: 1.57s LCP: 13.50s Load: 1.30s TBT: 285ms CLS:0.0040
+[2026-09-07 17:14:54] INFO: https://preprod.app.pieq.ai/user-management TTFB: 1.29s DOMContentLoaded: 1.31s firstPaint: 1.57s LCP: 2.83s Load: 1.31s TBT: 344ms CLS:0.0040
+[2026-09-07 17:14:54] INFO: https://preprod.app.pieq.ai/carriers TTFB: 1.04s DOMContentLoaded: 1.28s firstPaint: 1.55s LCP: 2.88s Load: 1.29s TBT: 186ms CLS:0.0040
+[2026-09-07 17:14:54] INFO: https://preprod.app.pieq.ai/agents TTFB: 1.35s DOMContentLoaded: 1.37s firstPaint: 1.65s LCP: 14.46s Load: 1.37s TBT: 399ms CLS:0.0047
+[2026-09-07 17:14:54] INFO: https://preprod.app.pieq.ai/product TTFB: 1.30s DOMContentLoaded: 1.32s firstPaint: 1.58s LCP: 14.40s Load: 1.32s TBT: 303ms CLS:0.0040
+[2026-09-07 17:14:54] INFO: https://preprod.app.pieq.ai/commissions/statement-setup TTFB: 1.31s DOMContentLoaded: 1.32s firstPaint: 1.58s LCP: 14.92s Load: 1.32s TBT: 375ms CLS:0.0040
+[2026-09-07 17:14:54] INFO: https://preprod.app.pieq.ai/advance/overview TTFB: 1.40s DOMContentLoaded: 1.42s firstPaint: 1.78s LCP: 2.98s Load: 1.42s TBT: 268ms CLS:0.0040
+[2026-09-07 17:14:54] INFO: https://preprod.app.pieq.ai/advance/advance-setup TTFB: 1.30s DOMContentLoaded: 1.31s firstPaint: 1.62s LCP: 7.37s Load: 1.31s TBT: 680ms CLS:0.0040
+[2026-09-07 17:14:54] INFO: https://preprod.app.pieq.ai/commission-processing/upload-statement TTFB: 1.30s DOMContentLoaded: 1.32s firstPaint: 1.75s LCP: 5.63s Load: 1.32s TBT: 749ms CLS:0.0040
+[2026-09-07 17:14:54] INFO: https://preprod.app.pieq.ai/payment-processing/disbursement-history TTFB: 1.30s DOMContentLoaded: 1.32s firstPaint: 1.63s LCP: 5.45s Load: 1.32s TBT: 598ms CLS:0.0040
+[2026-09-07 17:14:54] INFO: https://preprod.app.pieq.ai/payment-processing/miscellaneous-charges TTFB: 1.30s DOMContentLoaded: 1.33s firstPaint: 1.67s LCP: 4.72s Load: 1.33s TBT: 623ms CLS:0.0040
+
+===== run-all-roles.cmd started 2026-09-07 19:05:56 =====
+No environment flag specified, defaulting to preprod.
+
+============================================================
+ Environment : preprod
+ Base URL    : https://preprod.app.pieq.ai
+ Extra args  : 
+============================================================
+
+[1/3] Running Ops Manager performance test...
+[2026-09-07 19:06:03] INFO: Versions OS: win32 10.0.26200 nodejs: v24.12.0 sitespeed.io: 42.6.0 browsertime: 28.3.0 coach: 9.2.1
+[2026-09-07 19:06:04] INFO: Running tests using Chrome - 3 iteration(s)
+[2026-09-07 19:06:06] INFO: Navigating to url https://preprod.app.pieq.ai/ iteration 1
+[2026-09-07 19:06:20] INFO: Filled #username
+[2026-09-07 19:06:21] INFO: Filled #password
+[2026-09-07 19:06:21] INFO: The AndWait methods are deprecated. Use commands.click(selector, { wait: true }) instead.
+[2026-09-07 19:06:30] INFO: Start to measure Dashboard
+[2026-09-07 19:06:30] INFO: Navigating to url https://preprod.app.pieq.ai/dashboard/ops-manager iteration 1
+[2026-09-07 19:06:43] INFO: Take after page complete check screenshot
+[2026-09-07 19:06:45] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:06:45] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:06:46] INFO: Start to measure Policy
+[2026-09-07 19:06:46] INFO: Navigating to url https://preprod.app.pieq.ai/policy iteration 1
+[2026-09-07 19:06:59] INFO: Take after page complete check screenshot
+[2026-09-07 19:07:00] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:07:00] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:07:02] INFO: Start to measure Statement History
+[2026-09-07 19:07:02] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/statement-history iteration 1
+[2026-09-07 19:07:15] INFO: Take after page complete check screenshot
+[2026-09-07 19:07:16] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:07:17] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:07:18] INFO: Start to measure Needs Attention
+[2026-09-07 19:07:19] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/needs-attention iteration 1
+[2026-09-07 19:07:31] INFO: Take after page complete check screenshot
+[2026-09-07 19:07:32] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:07:32] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:07:34] INFO: Start to measure Payable
+[2026-09-07 19:07:34] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/payable-line-items iteration 1
+[2026-09-07 19:07:47] INFO: Take after page complete check screenshot
+[2026-09-07 19:07:48] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:07:49] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:07:50] INFO: Start to measure User Management
+[2026-09-07 19:07:50] INFO: Navigating to url https://preprod.app.pieq.ai/user-management iteration 1
+[2026-09-07 19:08:03] INFO: Take after page complete check screenshot
+[2026-09-07 19:08:04] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:08:04] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:08:06] INFO: Start to measure Carriers
+[2026-09-07 19:08:06] INFO: Navigating to url https://preprod.app.pieq.ai/carriers iteration 1
+[2026-09-07 19:08:19] INFO: Take after page complete check screenshot
+[2026-09-07 19:08:19] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:08:20] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:08:22] INFO: Start to measure Agents
+[2026-09-07 19:08:22] INFO: Navigating to url https://preprod.app.pieq.ai/agents iteration 1
+[2026-09-07 19:08:35] INFO: Take after page complete check screenshot
+[2026-09-07 19:08:36] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:08:37] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:08:38] INFO: Start to measure Products
+[2026-09-07 19:08:38] INFO: Navigating to url https://preprod.app.pieq.ai/product iteration 1
+[2026-09-07 19:08:51] INFO: Take after page complete check screenshot
+[2026-09-07 19:08:52] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:08:53] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:08:54] INFO: Start to measure Commission Statement Setup
+[2026-09-07 19:08:54] INFO: Navigating to url https://preprod.app.pieq.ai/commissions/statement-setup iteration 1
+[2026-09-07 19:09:07] INFO: Take after page complete check screenshot
+[2026-09-07 19:09:07] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:09:08] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:09:10] INFO: Start to measure Advance Overview
+[2026-09-07 19:09:10] INFO: Navigating to url https://preprod.app.pieq.ai/advance/overview iteration 1
+[2026-09-07 19:09:22] INFO: Take after page complete check screenshot
+[2026-09-07 19:09:23] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:09:25] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:09:25] INFO: Start to measure Advance Setup
+[2026-09-07 19:09:25] INFO: Navigating to url https://preprod.app.pieq.ai/advance/advance-setup iteration 1
+[2026-09-07 19:09:38] INFO: Take after page complete check screenshot
+[2026-09-07 19:09:39] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:09:39] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:09:40] INFO: Start to measure Upload Commission Statement
+[2026-09-07 19:09:40] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/upload-statement iteration 1
+[2026-09-07 19:09:53] INFO: Take after page complete check screenshot
+[2026-09-07 19:09:53] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:09:54] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:09:56] INFO: Start to measure Disbursement History
+[2026-09-07 19:09:56] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/disbursement-history iteration 1
+[2026-09-07 19:10:09] INFO: Take after page complete check screenshot
+[2026-09-07 19:10:09] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:10:10] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:10:11] INFO: Start to measure Miscellaneous Charges
+[2026-09-07 19:10:11] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/miscellaneous-charges iteration 1
+[2026-09-07 19:10:24] INFO: Take after page complete check screenshot
+[2026-09-07 19:10:25] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:10:25] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:10:29] INFO: https://preprod.app.pieq.ai/dashboard/ops-manager TTFB: 1.29s DOMContentLoaded: 1.31s firstPaint: 1.58s LCP: 12.80s Load: 1.31s TBT: 1.15s CLS:0.0040
+[2026-09-07 19:10:29] INFO: https://preprod.app.pieq.ai/policy TTFB: 1.37s DOMContentLoaded: 1.39s firstPaint: 1.65s LCP: 15.26s Load: 1.39s TBT: 431ms CLS:0.0040
+[2026-09-07 19:10:29] INFO: https://preprod.app.pieq.ai/commission-processing/statement-history TTFB: 1.31s DOMContentLoaded: 1.41s firstPaint: 1.74s LCP: 14.40s Load: 1.41s TBT: 462ms CLS:0.0040
+[2026-09-07 19:10:29] INFO: https://preprod.app.pieq.ai/commission-processing/needs-attention TTFB: 1.34s DOMContentLoaded: 1.36s firstPaint: 1.68s LCP: 5.28s Load: 1.37s TBT: 505ms CLS:0.0061
+[2026-09-07 19:10:29] INFO: https://preprod.app.pieq.ai/payment-processing/payable-line-items TTFB: 1.32s DOMContentLoaded: 1.35s firstPaint: 1.72s LCP: 13.15s Load: 1.35s TBT: 699ms CLS:0.0054
+[2026-09-07 19:10:29] INFO: https://preprod.app.pieq.ai/user-management TTFB: 1.33s DOMContentLoaded: 1.35s firstPaint: 1.77s LCP: 15.02s Load: 1.35s TBT: 413ms CLS:0.0040
+[2026-09-07 19:10:29] INFO: https://preprod.app.pieq.ai/carriers TTFB: 1.32s DOMContentLoaded: 1.34s firstPaint: 1.68s LCP: 15.18s Load: 1.34s TBT: 472ms CLS:0.0040
+[2026-09-07 19:10:29] INFO: https://preprod.app.pieq.ai/agents TTFB: 1.34s DOMContentLoaded: 1.36s firstPaint: 1.75s LCP: 15.33s Load: 1.36s TBT: 236ms CLS:0.0040
+[2026-09-07 19:10:29] INFO: https://preprod.app.pieq.ai/product TTFB: 1.31s DOMContentLoaded: 1.33s firstPaint: 1.65s LCP: 13.82s Load: 1.33s TBT: 381ms CLS:0.0040
+[2026-09-07 19:10:29] INFO: https://preprod.app.pieq.ai/commissions/statement-setup TTFB: 1.29s DOMContentLoaded: 1.31s firstPaint: 1.64s LCP: 14.25s Load: 1.31s TBT: 341ms CLS:0.0068
+[2026-09-07 19:10:29] INFO: https://preprod.app.pieq.ai/advance/overview TTFB: 1.34s DOMContentLoaded: 1.37s firstPaint: 1.70s LCP: 13.90s Load: 1.37s TBT: 608ms CLS:0.0040
+[2026-09-07 19:10:29] INFO: https://preprod.app.pieq.ai/advance/advance-setup TTFB: 1.31s DOMContentLoaded: 1.33s firstPaint: 1.65s LCP: 4.57s Load: 1.33s TBT: 540ms CLS:0.0040
+[2026-09-07 19:10:29] INFO: https://preprod.app.pieq.ai/commission-processing/upload-statement TTFB: 1.32s DOMContentLoaded: 1.33s firstPaint: 1.65s LCP: 5.28s Load: 1.33s TBT: 501ms CLS:0.0040
+[2026-09-07 19:10:29] INFO: https://preprod.app.pieq.ai/payment-processing/disbursement-history TTFB: 1.35s DOMContentLoaded: 1.38s firstPaint: 1.80s LCP: 6.30s Load: 1.38s TBT: 830ms CLS:0.0054
+[2026-09-07 19:10:29] INFO: https://preprod.app.pieq.ai/payment-processing/miscellaneous-charges TTFB: 1.32s DOMContentLoaded: 1.34s firstPaint: 1.75s LCP: 5.22s Load: 1.34s TBT: 841ms CLS:0.0040
+[2026-09-07 19:10:31] INFO: Navigating to url https://preprod.app.pieq.ai/ iteration 2
+[2026-09-07 19:10:45] INFO: Filled #username
+[2026-09-07 19:10:47] INFO: Filled #password
+[2026-09-07 19:10:47] INFO: The AndWait methods are deprecated. Use commands.click(selector, { wait: true }) instead.
+[2026-09-07 19:10:55] INFO: Start to measure Dashboard
+[2026-09-07 19:10:55] INFO: Navigating to url https://preprod.app.pieq.ai/dashboard/ops-manager iteration 2
+[2026-09-07 19:11:09] INFO: Take after page complete check screenshot
+[2026-09-07 19:11:10] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:11:12] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:11:14] INFO: Start to measure Policy
+[2026-09-07 19:11:14] INFO: Navigating to url https://preprod.app.pieq.ai/policy iteration 2
+[2026-09-07 19:11:26] INFO: Take after page complete check screenshot
+[2026-09-07 19:11:27] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:11:28] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:11:29] INFO: Start to measure Statement History
+[2026-09-07 19:11:29] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/statement-history iteration 2
+[2026-09-07 19:11:41] INFO: Take after page complete check screenshot
+[2026-09-07 19:11:42] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:11:42] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:11:46] INFO: Start to measure Needs Attention
+[2026-09-07 19:11:46] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/needs-attention iteration 2
+[2026-09-07 19:11:58] INFO: Take after page complete check screenshot
+[2026-09-07 19:11:59] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:12:00] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:12:00] INFO: No element attached to the entry in largest-contentful-paint
+[2026-09-07 19:12:02] INFO: Start to measure Payable
+[2026-09-07 19:12:02] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/payable-line-items iteration 2
+[2026-09-07 19:12:15] INFO: Take after page complete check screenshot
+[2026-09-07 19:12:16] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:12:17] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:12:19] INFO: Start to measure User Management
+[2026-09-07 19:12:19] INFO: Navigating to url https://preprod.app.pieq.ai/user-management iteration 2
+[2026-09-07 19:12:32] INFO: Take after page complete check screenshot
+[2026-09-07 19:12:32] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:12:33] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:12:34] INFO: Start to measure Carriers
+[2026-09-07 19:12:34] INFO: Navigating to url https://preprod.app.pieq.ai/carriers iteration 2
+[2026-09-07 19:12:47] INFO: Take after page complete check screenshot
+[2026-09-07 19:12:48] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:12:49] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:12:49] INFO: No element attached to the entry in largest-contentful-paint
+[2026-09-07 19:12:51] INFO: Start to measure Agents
+[2026-09-07 19:12:51] INFO: Navigating to url https://preprod.app.pieq.ai/agents iteration 2
+[2026-09-07 19:13:04] INFO: Take after page complete check screenshot
+[2026-09-07 19:13:06] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:13:07] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:13:10] INFO: Start to measure Products
+[2026-09-07 19:13:10] INFO: Navigating to url https://preprod.app.pieq.ai/product iteration 2
+[2026-09-07 19:13:24] INFO: Take after page complete check screenshot
+[2026-09-07 19:13:25] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:13:27] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:13:30] INFO: Start to measure Commission Statement Setup
+[2026-09-07 19:13:30] INFO: Navigating to url https://preprod.app.pieq.ai/commissions/statement-setup iteration 2
+[2026-09-07 19:13:44] INFO: Take after page complete check screenshot
+[2026-09-07 19:13:46] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:13:47] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:13:50] INFO: Start to measure Advance Overview
+[2026-09-07 19:13:50] INFO: Navigating to url https://preprod.app.pieq.ai/advance/overview iteration 2
+[2026-09-07 19:14:02] INFO: Take after page complete check screenshot
+[2026-09-07 19:14:03] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:14:05] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:14:07] INFO: Start to measure Advance Setup
+[2026-09-07 19:14:07] INFO: Navigating to url https://preprod.app.pieq.ai/advance/advance-setup iteration 2
+[2026-09-07 19:14:20] INFO: Take after page complete check screenshot
+[2026-09-07 19:14:21] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:14:22] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:14:25] INFO: Start to measure Upload Commission Statement
+[2026-09-07 19:14:25] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/upload-statement iteration 2
+[2026-09-07 19:14:37] INFO: Take after page complete check screenshot
+[2026-09-07 19:14:39] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:14:41] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:14:44] INFO: Start to measure Disbursement History
+[2026-09-07 19:14:44] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/disbursement-history iteration 2
+[2026-09-07 19:14:56] INFO: Take after page complete check screenshot
+[2026-09-07 19:14:57] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:14:59] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:15:01] INFO: Start to measure Miscellaneous Charges
+[2026-09-07 19:15:01] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/miscellaneous-charges iteration 2
+[2026-09-07 19:15:13] INFO: Take after page complete check screenshot
+[2026-09-07 19:15:14] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:15:15] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:15:20] INFO: https://preprod.app.pieq.ai/dashboard/ops-manager TTFB: 1.34s DOMContentLoaded: 1.37s firstPaint: 1.77s LCP: 15.95s Load: 1.37s TBT: 254ms CLS:0.0040
+[2026-09-07 19:15:20] INFO: https://preprod.app.pieq.ai/policy TTFB: 1.29s DOMContentLoaded: 1.33s firstPaint: 1.92s LCP: 3.50s Load: 1.33s TBT: 804ms CLS:0.0040
+[2026-09-07 19:15:20] INFO: https://preprod.app.pieq.ai/commission-processing/statement-history TTFB: 1.43s DOMContentLoaded: 1.45s firstPaint: 1.93s LCP: 15.08s Load: 1.46s TBT: 686ms CLS:0.0061
+[2026-09-07 19:15:20] INFO: https://preprod.app.pieq.ai/commission-processing/needs-attention TTFB: 1.30s DOMContentLoaded: 1.33s firstPaint: 1.82s LCP: 1.82s Load: 1.33s TBT: 1.10s CLS:0.0040
+[2026-09-07 19:15:20] INFO: https://preprod.app.pieq.ai/payment-processing/payable-line-items TTFB: 1.32s DOMContentLoaded: 1.34s firstPaint: 1.77s LCP: 14.13s Load: 1.34s TBT: 598ms CLS:0.0040
+[2026-09-07 19:15:20] INFO: https://preprod.app.pieq.ai/user-management TTFB: 1.30s DOMContentLoaded: 1.32s firstPaint: 1.65s LCP: 3.08s Load: 1.32s TBT: 758ms CLS:0.0040
+[2026-09-07 19:15:20] INFO: https://preprod.app.pieq.ai/carriers TTFB: 1.31s DOMContentLoaded: 1.33s firstPaint: 1.65s LCP: 14.20s Load: 1.33s TBT: 424ms CLS:0.0040
+[2026-09-07 19:15:20] INFO: https://preprod.app.pieq.ai/agents TTFB: 1.33s DOMContentLoaded: 1.35s firstPaint: 1.68s LCP: 3.00s Load: 1.35s TBT: 779ms CLS:0.0040
+[2026-09-07 19:15:20] INFO: https://preprod.app.pieq.ai/product TTFB: 3.22s DOMContentLoaded: 3.25s firstPaint: 3.82s LCP: 6.43s Load: 3.25s TBT: 438ms CLS:0.0040
+[2026-09-07 19:15:20] INFO: https://preprod.app.pieq.ai/commissions/statement-setup TTFB: 2.74s DOMContentLoaded: 3.32s firstPaint: 3.87s LCP: 5.70s Load: 3.32s TBT: 442ms CLS:0.0040
+[2026-09-07 19:15:20] INFO: https://preprod.app.pieq.ai/advance/overview TTFB: 1.68s DOMContentLoaded: 1.75s firstPaint: 2.30s LCP: 3.93s Load: 1.75s TBT: 485ms CLS:0.0040
+[2026-09-07 19:15:20] INFO: https://preprod.app.pieq.ai/advance/advance-setup TTFB: 1.50s DOMContentLoaded: 1.53s firstPaint: 2.05s LCP: 6.20s Load: 1.53s TBT: 1.46s CLS:0.0061
+[2026-09-07 19:15:20] INFO: https://preprod.app.pieq.ai/commission-processing/upload-statement TTFB: 1.34s DOMContentLoaded: 1.38s firstPaint: 2.00s LCP: 6.86s Load: 1.38s TBT: 1.49s CLS:0.0061
+[2026-09-07 19:15:20] INFO: https://preprod.app.pieq.ai/payment-processing/disbursement-history TTFB: 1.32s DOMContentLoaded: 1.35s firstPaint: 1.95s LCP: 6.78s Load: 1.35s TBT: 1.33s CLS:0.0040
+[2026-09-07 19:15:20] INFO: https://preprod.app.pieq.ai/payment-processing/miscellaneous-charges TTFB: 1.42s DOMContentLoaded: 1.45s firstPaint: 1.96s LCP: 5.83s Load: 1.45s TBT: 1.52s CLS:0.0054
+[2026-09-07 19:15:31] INFO: Navigating to url https://preprod.app.pieq.ai/ iteration 3
+[2026-09-07 19:15:44] INFO: Filled #username
+[2026-09-07 19:15:46] INFO: Filled #password
+[2026-09-07 19:15:47] INFO: The AndWait methods are deprecated. Use commands.click(selector, { wait: true }) instead.
+[2026-09-07 19:15:54] INFO: Start to measure Dashboard
+[2026-09-07 19:15:54] INFO: Navigating to url https://preprod.app.pieq.ai/dashboard/ops-manager iteration 3
+[2026-09-07 19:16:06] INFO: Take after page complete check screenshot
+[2026-09-07 19:16:08] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:16:10] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:16:12] INFO: Start to measure Policy
+[2026-09-07 19:16:12] INFO: Navigating to url https://preprod.app.pieq.ai/policy iteration 3
+[2026-09-07 19:16:23] INFO: Take after page complete check screenshot
+[2026-09-07 19:16:25] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:16:26] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:16:29] INFO: Start to measure Statement History
+[2026-09-07 19:16:29] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/statement-history iteration 3
+[2026-09-07 19:16:41] INFO: Take after page complete check screenshot
+[2026-09-07 19:16:42] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:16:43] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:16:46] INFO: Start to measure Needs Attention
+[2026-09-07 19:16:46] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/needs-attention iteration 3
+[2026-09-07 19:16:58] INFO: Take after page complete check screenshot
+[2026-09-07 19:16:59] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:17:00] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:17:03] INFO: Start to measure Payable
+[2026-09-07 19:17:03] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/payable-line-items iteration 3
+[2026-09-07 19:17:15] INFO: Take after page complete check screenshot
+[2026-09-07 19:17:16] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:17:18] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:17:20] INFO: Start to measure User Management
+[2026-09-07 19:17:20] INFO: Navigating to url https://preprod.app.pieq.ai/user-management iteration 3
+[2026-09-07 19:17:32] INFO: Take after page complete check screenshot
+[2026-09-07 19:17:33] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:17:34] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:17:37] INFO: Start to measure Carriers
+[2026-09-07 19:17:37] INFO: Navigating to url https://preprod.app.pieq.ai/carriers iteration 3
+[2026-09-07 19:17:49] INFO: Take after page complete check screenshot
+[2026-09-07 19:17:50] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:17:51] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:17:53] INFO: Start to measure Agents
+[2026-09-07 19:17:53] INFO: Navigating to url https://preprod.app.pieq.ai/agents iteration 3
+[2026-09-07 19:18:05] INFO: Take after page complete check screenshot
+[2026-09-07 19:18:06] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:18:07] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:18:09] INFO: Start to measure Products
+[2026-09-07 19:18:09] INFO: Navigating to url https://preprod.app.pieq.ai/product iteration 3
+[2026-09-07 19:18:21] INFO: Take after page complete check screenshot
+[2026-09-07 19:18:22] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:18:23] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:18:26] INFO: Start to measure Commission Statement Setup
+[2026-09-07 19:18:26] INFO: Navigating to url https://preprod.app.pieq.ai/commissions/statement-setup iteration 3
+[2026-09-07 19:18:37] INFO: Take after page complete check screenshot
+[2026-09-07 19:18:38] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:18:39] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:18:42] INFO: Start to measure Advance Overview
+[2026-09-07 19:18:42] INFO: Navigating to url https://preprod.app.pieq.ai/advance/overview iteration 3
+[2026-09-07 19:18:53] INFO: Take after page complete check screenshot
+[2026-09-07 19:18:54] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:18:55] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:18:57] INFO: Start to measure Advance Setup
+[2026-09-07 19:18:58] INFO: Navigating to url https://preprod.app.pieq.ai/advance/advance-setup iteration 3
+[2026-09-07 19:19:09] INFO: Take after page complete check screenshot
+[2026-09-07 19:19:10] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:19:11] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:19:13] INFO: Start to measure Upload Commission Statement
+[2026-09-07 19:19:13] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/upload-statement iteration 3
+[2026-09-07 19:19:25] INFO: Take after page complete check screenshot
+[2026-09-07 19:19:26] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:19:26] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:19:28] INFO: Start to measure Disbursement History
+[2026-09-07 19:19:28] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/disbursement-history iteration 3
+[2026-09-07 19:19:40] INFO: Take after page complete check screenshot
+[2026-09-07 19:19:41] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:19:42] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:19:43] INFO: Start to measure Miscellaneous Charges
+[2026-09-07 19:19:43] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/miscellaneous-charges iteration 3
+[2026-09-07 19:19:55] INFO: Take after page complete check screenshot
+[2026-09-07 19:19:55] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:19:56] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/dashboard/ops-manager TTFB: 1.31s DOMContentLoaded: 1.39s firstPaint: 1.87s LCP: 14.53s Load: 1.39s TBT: 399ms CLS:0.0040
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/policy TTFB: 1.31s DOMContentLoaded: 1.34s firstPaint: 1.85s LCP: 3.33s Load: 1.34s TBT: 776ms CLS:0.0040
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/commission-processing/statement-history TTFB: 1.33s DOMContentLoaded: 1.35s firstPaint: 1.84s LCP: 15.08s Load: 1.35s TBT: 869ms CLS:0.0040
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/commission-processing/needs-attention TTFB: 1.36s DOMContentLoaded: 1.39s firstPaint: 1.87s LCP: 6.66s Load: 1.39s TBT: 1.19s CLS:0.0061
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/payment-processing/payable-line-items TTFB: 1.35s DOMContentLoaded: 1.51s firstPaint: 2.10s LCP: 15.30s Load: 1.51s TBT: 826ms CLS:0.0054
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/user-management TTFB: 1.31s DOMContentLoaded: 1.34s firstPaint: 1.83s LCP: 16.52s Load: 1.34s TBT: 793ms CLS:0.0040
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/carriers TTFB: 1.34s DOMContentLoaded: 1.37s firstPaint: 1.87s LCP: 3.35s Load: 1.37s TBT: 766ms CLS:0.0040
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/agents TTFB: 1.33s DOMContentLoaded: 1.35s firstPaint: 1.82s LCP: 3.22s Load: 1.36s TBT: 720ms CLS:0.0040
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/product TTFB: 1.29s DOMContentLoaded: 1.32s firstPaint: 1.76s LCP: 15.58s Load: 1.32s TBT: 774ms CLS:0.0040
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/commissions/statement-setup TTFB: 1.31s DOMContentLoaded: 1.33s firstPaint: 1.83s LCP: 3.27s Load: 1.34s TBT: 820ms CLS:0.0068
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/advance/overview TTFB: 1.31s DOMContentLoaded: 1.33s firstPaint: 1.83s LCP: 14.66s Load: 1.34s TBT: 828ms CLS:0.0040
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/advance/advance-setup TTFB: 1.30s DOMContentLoaded: 1.32s firstPaint: 1.80s LCP: 5.33s Load: 1.32s TBT: 1.28s CLS:0.0061
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/commission-processing/upload-statement TTFB: 1.30s DOMContentLoaded: 1.33s firstPaint: 2.03s LCP: 6.65s Load: 1.33s TBT: 1.28s CLS:0.0061
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/payment-processing/disbursement-history TTFB: 1.30s DOMContentLoaded: 1.33s firstPaint: 1.80s LCP: 7.05s Load: 1.33s TBT: 1.13s CLS:0.0040
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/payment-processing/miscellaneous-charges TTFB: 1.30s DOMContentLoaded: 1.32s firstPaint: 1.75s LCP: 5.18s Load: 1.33s TBT: 964ms CLS:0.0040
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/dashboard/ops-manager 24 requests, TTFB: 1.31s (σ19.00ms 1.5%), firstPaint: 1.77s (σ118.00ms 6.8%), FCP: 1.77s (σ118.00ms 6.8%), DOMContentLoaded: 1.37s (σ34.00ms 2.5%), LCP: 14.53s (σ1.29s 8.9%), CLS: 0.004 (σ0.00 0%), TBT: 399ms (σ392.00ms 65.3%), CPUBenchmark: 88ms (σ15.00ms 18.0%), Load: 1.37s (σ35.00ms 2.6%) (3 runs)
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/policy 29 requests, TTFB: 1.31s (σ33.00ms 2.5%), firstPaint: 1.85s (σ112.00ms 6.2%), FCP: 1.85s (σ112.00ms 6.2%), DOMContentLoaded: 1.34s (σ26.00ms 1.9%), LCP: 3.50s (σ5.59s 75.8%), CLS: 0.004 (σ0.00 0%), TBT: 776ms (σ170.00ms 25.3%), CPUBenchmark: 85ms (σ12.00ms 13.7%), Load: 1.34s (σ25.00ms 1.9%) (3 runs)
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/commission-processing/statement-history 35 requests, TTFB: 1.33s (σ52.00ms 3.9%), firstPaint: 1.84s (σ80.00ms 4.4%), FCP: 1.84s (σ80.00ms 4.4%), DOMContentLoaded: 1.41s (σ42.00ms 3.0%), LCP: 15.08s (σ322.00ms 2.2%), CLS: 0.004 (σ0.00 21.0%), TBT: 686ms (σ166.00ms 24.8%), CPUBenchmark: 92ms (σ9.00ms 10.7%), Load: 1.41s (σ42.00ms 3.0%) (3 runs)
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/commission-processing/needs-attention 12 requests, TTFB: 1.34s (σ25.00ms 1.8%), firstPaint: 1.82s (σ79.00ms 4.4%), FCP: 1.82s (σ79.00ms 4.4%), DOMContentLoaded: 1.36s (σ24.00ms 1.8%), LCP: 5.28s (σ2.04s 44.4%), CLS: 0.0061 (σ0.00 18.3%), TBT: 1.10s (σ304.00ms 32.6%), CPUBenchmark: 82ms (σ8.00ms 9.9%), Load: 1.37s (σ24.00ms 1.8%) (3 runs)
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/payment-processing/payable-line-items 31 requests, TTFB: 1.32s (σ15.00ms 1.2%), firstPaint: 1.77s (σ170.00ms 9.1%), FCP: 1.77s (σ170.00ms 9.1%), DOMContentLoaded: 1.35s (σ78.00ms 5.6%), LCP: 14.13s (σ878.00ms 6.2%), CLS: 0.0054 (σ0.00 13.3%), TBT: 699ms (σ93.00ms 13.2%), CPUBenchmark: 86ms (σ9.00ms 10.8%), Load: 1.35s (σ78.00ms 5.6%) (3 runs)
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/user-management 22 requests, TTFB: 1.31s (σ12.00ms 0.9%), firstPaint: 1.77s (σ74.00ms 4.3%), FCP: 1.77s (σ74.00ms 4.3%), DOMContentLoaded: 1.34s (σ12.00ms 0.9%), LCP: 15.02s (σ6.01s 52.1%), CLS: 0.004 (σ0.00 0%), TBT: 758ms (σ171.00ms 26.2%), CPUBenchmark: 85ms (σ7.00ms 8.2%), Load: 1.34s (σ11.00ms 0.8%) (3 runs)
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/carriers 21 requests, TTFB: 1.32s (σ13.00ms 1.0%), firstPaint: 1.68s (σ95.00ms 5.5%), FCP: 1.68s (σ95.00ms 5.5%), DOMContentLoaded: 1.34s (σ16.00ms 1.2%), LCP: 14.20s (σ5.36s 49.1%), CLS: 0.004 (σ0.00 0%), TBT: 472ms (σ151.00ms 27.3%), CPUBenchmark: 88ms (σ2.00ms 2.5%), Load: 1.34s (σ16.00ms 1.2%) (3 runs)
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/agents 24 requests, TTFB: 1.33s (σ5.00ms 0.4%), firstPaint: 1.75s (σ54.00ms 3.1%), FCP: 1.75s (σ54.00ms 3.1%), DOMContentLoaded: 1.35s (σ2.00ms 0.2%), LCP: 3.22s (σ5.76s 80.2%), CLS: 0.004 (σ0.00 0%), TBT: 720ms (σ243.00ms 42.1%), CPUBenchmark: 93ms (σ9.00ms 9.7%), Load: 1.36s (σ2.00ms 0.2%) (3 runs)
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/product 27 requests, TTFB: 1.31s (σ905.00ms 46.7%), firstPaint: 1.76s (σ995.00ms 41.3%), FCP: 1.76s (σ995.00ms 41.3%), DOMContentLoaded: 1.33s (σ908.00ms 46.2%), LCP: 13.82s (σ3.96s 33.2%), CLS: 0.004 (σ0.00 0%), TBT: 438ms (σ173.00ms 32.7%), CPUBenchmark: 91ms (σ10.00ms 11.7%), Load: 1.33s (σ908.00ms 46.2%) (3 runs)
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/commissions/statement-setup 25 requests, TTFB: 1.31s (σ678.00ms 38.1%), firstPaint: 1.83s (σ1.01s 41.3%), FCP: 1.83s (σ1.01s 41.3%), DOMContentLoaded: 1.33s (σ943.00ms 47.3%), LCP: 5.70s (σ4.71s 60.8%), CLS: 0.0068 (σ0.00 22.4%), TBT: 442ms (σ206.00ms 38.6%), CPUBenchmark: 98ms (σ14.00ms 15.2%), Load: 1.34s (σ942.00ms 47.3%) (3 runs)
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/advance/overview 27 requests, TTFB: 1.34s (σ167.00ms 11.5%), firstPaint: 1.83s (σ259.00ms 13.3%), FCP: 1.83s (σ259.00ms 13.3%), DOMContentLoaded: 1.37s (σ188.00ms 12.7%), LCP: 13.90s (σ4.89s 45.1%), CLS: 0.004 (σ0.00 0%), TBT: 608ms (σ142.00ms 22.2%), CPUBenchmark: 85ms (σ17.00ms 19.6%), Load: 1.37s (σ188.00ms 12.6%) (3 runs)
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/advance/advance-setup 13 requests, TTFB: 1.31s (σ94.00ms 6.8%), firstPaint: 1.80s (σ165.00ms 9.0%), FCP: 1.80s (σ165.00ms 9.0%), DOMContentLoaded: 1.33s (σ95.00ms 6.8%), LCP: 5.33s (σ667.00ms 12.4%), CLS: 0.0061 (σ0.00 18.3%), TBT: 1.28s (σ397.00ms 36.4%), CPUBenchmark: 90ms (σ13.00ms 15.5%), Load: 1.33s (σ95.00ms 6.8%) (3 runs)
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/commission-processing/upload-statement 14 requests, TTFB: 1.32s (σ14.00ms 1.1%), firstPaint: 2.00s (σ172.00ms 9.1%), FCP: 2.00s (σ172.00ms 9.1%), DOMContentLoaded: 1.33s (σ20.00ms 1.5%), LCP: 6.65s (σ699.00ms 11.2%), CLS: 0.0061 (σ0.00 18.3%), TBT: 1.28s (σ426.00ms 39.0%), CPUBenchmark: 90ms (σ5.00ms 5.9%), Load: 1.33s (σ20.00ms 1.5%) (3 runs)
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/payment-processing/disbursement-history 13 requests, TTFB: 1.32s (σ21.00ms 1.6%), firstPaint: 1.80s (σ70.00ms 3.8%), FCP: 1.80s (σ70.00ms 3.8%), DOMContentLoaded: 1.35s (σ21.00ms 1.6%), LCP: 6.78s (σ311.00ms 4.6%), CLS: 0.004 (σ0.00 14.7%), TBT: 1.13s (σ206.00ms 18.8%), CPUBenchmark: 91ms (σ6.00ms 7.1%), Load: 1.35s (σ21.00ms 1.6%) (3 runs)
+[2026-09-07 19:20:00] INFO: https://preprod.app.pieq.ai/payment-processing/miscellaneous-charges 12 requests, TTFB: 1.32s (σ52.00ms 3.8%), firstPaint: 1.75s (σ100.00ms 5.5%), FCP: 1.75s (σ100.00ms 5.5%), DOMContentLoaded: 1.34s (σ56.00ms 4.1%), LCP: 5.22s (σ298.00ms 5.5%), CLS: 0.004 (σ0.00 14.7%), TBT: 964ms (σ294.00ms 26.6%), CPUBenchmark: 89ms (σ6.00ms 6.7%), Load: 1.34s (σ56.00ms 4.0%) (3 runs)
+[2026-09-07 19:20:22] INFO: HTML stored in C:\Users\user\Downloads\ICM-Performance_test\ICM-Performance\sitespeed-result\dashboard_op_manager_js\2026-09-07-19-06-03
+[PASS] Ops Manager test completed.
+
+[2/3] Running Agency Owner performance test...
+[2026-09-07 19:20:32] INFO: Versions OS: win32 10.0.26200 nodejs: v24.12.0 sitespeed.io: 42.6.0 browsertime: 28.3.0 coach: 9.2.1
+[2026-09-07 19:20:33] INFO: Running tests using Chrome - 3 iteration(s)
+[2026-09-07 19:20:36] INFO: Navigating to url https://preprod.app.pieq.ai/ iteration 1
+[2026-09-07 19:20:51] INFO: Filled #username
+[2026-09-07 19:20:53] INFO: Filled #password
+[2026-09-07 19:20:53] INFO: The AndWait methods are deprecated. Use commands.click(selector, { wait: true }) instead.
+[2026-09-07 19:21:03] INFO: Start to measure Dashboard
+[2026-09-07 19:21:04] INFO: Navigating to url https://preprod.app.pieq.ai/dashboard/agency-owner iteration 1
+[2026-09-07 19:21:15] INFO: Take after page complete check screenshot
+[2026-09-07 19:21:25] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:21:26] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:21:28] INFO: Start to measure Policy
+[2026-09-07 19:21:28] INFO: Navigating to url https://preprod.app.pieq.ai/policy iteration 1
+[2026-09-07 19:21:40] INFO: Take after page complete check screenshot
+[2026-09-07 19:21:41] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:21:43] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:21:46] INFO: Start to measure Statement History
+[2026-09-07 19:21:46] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/statement-history iteration 1
+[2026-09-07 19:21:59] INFO: Take after page complete check screenshot
+[2026-09-07 19:22:00] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:22:01] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:22:03] INFO: Start to measure Needs Attention
+[2026-09-07 19:22:03] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/needs-attention iteration 1
+[2026-09-07 19:22:15] INFO: Take after page complete check screenshot
+[2026-09-07 19:22:17] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:22:19] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:22:23] INFO: Start to measure Payable
+[2026-09-07 19:22:23] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/payable-line-items iteration 1
+[2026-09-07 19:22:38] INFO: Take after page complete check screenshot
+[2026-09-07 19:22:43] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:22:48] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:22:52] INFO: Start to measure Agents
+[2026-09-07 19:22:52] INFO: Navigating to url https://preprod.app.pieq.ai/agents iteration 1
+[2026-09-07 19:23:06] INFO: Take after page complete check screenshot
+[2026-09-07 19:23:07] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:23:08] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:23:10] INFO: Start to measure Products
+[2026-09-07 19:23:10] INFO: Navigating to url https://preprod.app.pieq.ai/product iteration 1
+[2026-09-07 19:23:21] INFO: Take after page complete check screenshot
+[2026-09-07 19:23:22] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:23:23] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:23:25] INFO: Start to measure Commission Statement Setup
+[2026-09-07 19:23:25] INFO: Navigating to url https://preprod.app.pieq.ai/commissions/statement-setup iteration 1
+[2026-09-07 19:23:38] INFO: Take after page complete check screenshot
+[2026-09-07 19:23:38] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:23:40] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:23:41] INFO: Start to measure Advance Overview
+[2026-09-07 19:23:41] INFO: Navigating to url https://preprod.app.pieq.ai/advance/overview iteration 1
+[2026-09-07 19:23:54] INFO: Take after page complete check screenshot
+[2026-09-07 19:23:55] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:23:56] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:23:57] INFO: Start to measure Advance Setup
+[2026-09-07 19:23:57] INFO: Navigating to url https://preprod.app.pieq.ai/advance/advance-setup iteration 1
+[2026-09-07 19:24:10] INFO: Take after page complete check screenshot
+[2026-09-07 19:24:11] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:24:11] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:24:13] INFO: Start to measure Upload Commission Statement
+[2026-09-07 19:24:13] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/upload-statement iteration 1
+[2026-09-07 19:24:25] INFO: Take after page complete check screenshot
+[2026-09-07 19:24:26] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:24:27] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:24:28] INFO: Start to measure Disbursement History
+[2026-09-07 19:24:29] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/disbursement-history iteration 1
+[2026-09-07 19:24:41] INFO: Take after page complete check screenshot
+[2026-09-07 19:24:42] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:24:43] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:24:45] INFO: Start to measure Miscellaneous Charges
+[2026-09-07 19:24:46] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/miscellaneous-charges iteration 1
+[2026-09-07 19:24:59] INFO: Take after page complete check screenshot
+[2026-09-07 19:25:00] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:25:01] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:25:05] INFO: https://preprod.app.pieq.ai/dashboard/agency-owner TTFB: 914ms DOMContentLoaded: 996ms firstPaint: 1.53s LCP: 13.82s Load: 997ms TBT: 478ms CLS:0.1623
+[2026-09-07 19:25:05] INFO: https://preprod.app.pieq.ai/policy TTFB: 1.67s DOMContentLoaded: 1.74s firstPaint: 3.92s LCP: 17.13s Load: 1.74s TBT: 613ms 
+[2026-09-07 19:25:05] INFO: https://preprod.app.pieq.ai/commission-processing/statement-history TTFB: 1.30s DOMContentLoaded: 1.34s firstPaint: 1.84s LCP: 2.73s Load: 1.34s TBT: 715ms CLS:0.0061
+[2026-09-07 19:25:05] INFO: https://preprod.app.pieq.ai/commission-processing/needs-attention TTFB: 1.07s DOMContentLoaded: 1.31s firstPaint: 1.93s LCP: 6.67s Load: 1.31s TBT: 1.52s CLS:0.0061
+[2026-09-07 19:25:05] INFO: https://preprod.app.pieq.ai/payment-processing/payable-line-items TTFB: 1.31s DOMContentLoaded: 1.36s firstPaint: 2.05s LCP: 20.92s Load: 1.36s TBT: 1.29s CLS:0.0054
+[2026-09-07 19:25:05] INFO: https://preprod.app.pieq.ai/agents TTFB: 1.70s DOMContentLoaded: 1.81s firstPaint: 2.46s LCP: 3.86s Load: 1.81s TBT: 577ms CLS:0.0040
+[2026-09-07 19:25:05] INFO: https://preprod.app.pieq.ai/product TTFB: 1.32s DOMContentLoaded: 1.34s firstPaint: 1.77s LCP: 14.10s Load: 1.34s TBT: 573ms CLS:0.0040
+[2026-09-07 19:25:05] INFO: https://preprod.app.pieq.ai/commissions/statement-setup TTFB: 1.31s DOMContentLoaded: 1.33s firstPaint: 1.74s LCP: 14.58s Load: 1.33s TBT: 631ms CLS:0.0040
+[2026-09-07 19:25:05] INFO: https://preprod.app.pieq.ai/advance/overview TTFB: 1.31s DOMContentLoaded: 1.33s firstPaint: 1.78s LCP: 14.68s Load: 1.33s TBT: 606ms CLS:0.0040
+[2026-09-07 19:25:05] INFO: https://preprod.app.pieq.ai/advance/advance-setup TTFB: 1.31s DOMContentLoaded: 1.33s firstPaint: 1.75s LCP: 5.60s Load: 1.33s TBT: 1.27s CLS:0.0061
+[2026-09-07 19:25:05] INFO: https://preprod.app.pieq.ai/commission-processing/upload-statement TTFB: 1.47s DOMContentLoaded: 1.50s firstPaint: 2.02s LCP: 7.20s Load: 1.50s TBT: 1.34s CLS:0.0061
+[2026-09-07 19:25:05] INFO: https://preprod.app.pieq.ai/payment-processing/disbursement-history TTFB: 1.30s DOMContentLoaded: 1.33s firstPaint: 1.87s LCP: 6.32s Load: 1.33s TBT: 882ms CLS:0.0054
+[2026-09-07 19:25:05] INFO: https://preprod.app.pieq.ai/payment-processing/miscellaneous-charges TTFB: 1.36s DOMContentLoaded: 1.44s firstPaint: 2.15s LCP: 6.33s Load: 1.44s TBT: 1.63s CLS:0.0054
+[2026-09-07 19:25:09] INFO: Navigating to url https://preprod.app.pieq.ai/ iteration 2
+[2026-09-07 19:25:32] INFO: Filled #username
+[2026-09-07 19:25:34] INFO: Filled #password
+[2026-09-07 19:25:35] INFO: The AndWait methods are deprecated. Use commands.click(selector, { wait: true }) instead.
+[2026-09-07 19:25:45] INFO: Start to measure Dashboard
+[2026-09-07 19:25:46] INFO: Navigating to url https://preprod.app.pieq.ai/dashboard/agency-owner iteration 2
+[2026-09-07 19:25:58] INFO: Take after page complete check screenshot
+[2026-09-07 19:25:59] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:26:02] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:26:04] INFO: Start to measure Policy
+[2026-09-07 19:26:04] INFO: Navigating to url https://preprod.app.pieq.ai/policy iteration 2
+[2026-09-07 19:26:16] INFO: Take after page complete check screenshot
+[2026-09-07 19:26:18] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:26:20] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:26:23] INFO: Start to measure Statement History
+[2026-09-07 19:26:23] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/statement-history iteration 2
+[2026-09-07 19:26:36] INFO: Take after page complete check screenshot
+[2026-09-07 19:26:37] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:26:38] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:26:41] INFO: Start to measure Needs Attention
+[2026-09-07 19:26:41] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/needs-attention iteration 2
+[2026-09-07 19:26:53] INFO: Take after page complete check screenshot
+[2026-09-07 19:26:54] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:26:55] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:26:57] INFO: Start to measure Payable
+[2026-09-07 19:26:57] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/payable-line-items iteration 2
+[2026-09-07 19:27:10] INFO: Take after page complete check screenshot
+[2026-09-07 19:27:11] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:27:12] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:27:14] INFO: Start to measure Agents
+[2026-09-07 19:27:14] INFO: Navigating to url https://preprod.app.pieq.ai/agents iteration 2
+[2026-09-07 19:27:26] INFO: Take after page complete check screenshot
+[2026-09-07 19:27:27] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:27:28] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:27:30] INFO: Start to measure Products
+[2026-09-07 19:27:30] INFO: Navigating to url https://preprod.app.pieq.ai/product iteration 2
+[2026-09-07 19:27:42] INFO: Take after page complete check screenshot
+[2026-09-07 19:27:43] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:27:44] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:27:47] INFO: Start to measure Commission Statement Setup
+[2026-09-07 19:27:47] INFO: Navigating to url https://preprod.app.pieq.ai/commissions/statement-setup iteration 2
+[2026-09-07 19:27:59] INFO: Take after page complete check screenshot
+[2026-09-07 19:28:00] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:28:02] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:28:04] INFO: Start to measure Advance Overview
+[2026-09-07 19:28:04] INFO: Navigating to url https://preprod.app.pieq.ai/advance/overview iteration 2
+[2026-09-07 19:28:15] INFO: Take after page complete check screenshot
+[2026-09-07 19:28:16] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:28:18] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:28:19] INFO: Start to measure Advance Setup
+[2026-09-07 19:28:19] INFO: Navigating to url https://preprod.app.pieq.ai/advance/advance-setup iteration 2
+[2026-09-07 19:28:31] INFO: Take after page complete check screenshot
+[2026-09-07 19:28:32] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:28:33] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:28:34] INFO: Start to measure Upload Commission Statement
+[2026-09-07 19:28:34] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/upload-statement iteration 2
+[2026-09-07 19:28:46] INFO: Take after page complete check screenshot
+[2026-09-07 19:28:47] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:28:48] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:28:50] INFO: Start to measure Disbursement History
+[2026-09-07 19:28:50] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/disbursement-history iteration 2
+[2026-09-07 19:29:02] INFO: Take after page complete check screenshot
+[2026-09-07 19:29:03] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:29:04] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:29:06] INFO: Start to measure Miscellaneous Charges
+[2026-09-07 19:29:06] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/miscellaneous-charges iteration 2
+[2026-09-07 19:29:18] INFO: Take after page complete check screenshot
+[2026-09-07 19:29:19] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:29:20] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:29:25] INFO: https://preprod.app.pieq.ai/dashboard/agency-owner TTFB: 1.33s DOMContentLoaded: 1.37s firstPaint: 1.93s LCP: 15.43s Load: 1.37s TBT: 381ms CLS:0.1440
+[2026-09-07 19:29:25] INFO: https://preprod.app.pieq.ai/policy TTFB: 1.32s DOMContentLoaded: 1.34s firstPaint: 1.85s LCP: 16.20s Load: 1.34s TBT: 779ms CLS:0.0040
+[2026-09-07 19:29:25] INFO: https://preprod.app.pieq.ai/commission-processing/statement-history TTFB: 1.35s DOMContentLoaded: 1.38s firstPaint: 1.95s LCP: 17.00s Load: 1.38s TBT: 978ms CLS:0.0061
+[2026-09-07 19:29:25] INFO: https://preprod.app.pieq.ai/commission-processing/needs-attention TTFB: 1.29s DOMContentLoaded: 1.31s firstPaint: 1.83s LCP: 6.40s Load: 1.32s TBT: 1.32s CLS:0.0040
+[2026-09-07 19:29:25] INFO: https://preprod.app.pieq.ai/payment-processing/payable-line-items TTFB: 1.30s DOMContentLoaded: 1.33s firstPaint: 1.75s LCP: 14.05s Load: 1.33s TBT: 838ms CLS:0.0054
+[2026-09-07 19:29:25] INFO: https://preprod.app.pieq.ai/agents TTFB: 1.32s DOMContentLoaded: 1.36s firstPaint: 1.93s LCP: 3.13s Load: 1.36s TBT: 796ms CLS:0.0040
+[2026-09-07 19:29:25] INFO: https://preprod.app.pieq.ai/product TTFB: 1.33s DOMContentLoaded: 1.35s firstPaint: 1.85s LCP: 15.12s Load: 1.35s TBT: 635ms CLS:0.0040
+[2026-09-07 19:29:25] INFO: https://preprod.app.pieq.ai/commissions/statement-setup TTFB: 1.31s DOMContentLoaded: 1.33s firstPaint: 1.80s LCP: 14.16s Load: 1.33s TBT: 834ms CLS:0.0068
+[2026-09-07 19:29:25] INFO: https://preprod.app.pieq.ai/advance/overview TTFB: 1.31s DOMContentLoaded: 1.34s firstPaint: 1.82s LCP: 3.02s Load: 1.34s TBT: 867ms CLS:0.0040
+[2026-09-07 19:29:25] INFO: https://preprod.app.pieq.ai/advance/advance-setup TTFB: 906ms DOMContentLoaded: 1.21s firstPaint: 1.68s LCP: 4.78s Load: 1.21s TBT: 771ms CLS:0.0061
+[2026-09-07 19:29:25] INFO: https://preprod.app.pieq.ai/commission-processing/upload-statement TTFB: 1.30s DOMContentLoaded: 1.33s firstPaint: 1.77s LCP: 6.15s Load: 1.33s TBT: 1.04s CLS:0.0040
+[2026-09-07 19:29:25] INFO: https://preprod.app.pieq.ai/payment-processing/disbursement-history TTFB: 1.31s DOMContentLoaded: 1.33s firstPaint: 1.93s LCP: 6.45s Load: 1.33s TBT: 1.34s CLS:0.0054
+[2026-09-07 19:29:25] INFO: https://preprod.app.pieq.ai/payment-processing/miscellaneous-charges TTFB: 1.32s DOMContentLoaded: 1.35s firstPaint: 1.85s LCP: 5.95s Load: 1.35s TBT: 1.54s CLS:0.0040
+[2026-09-07 19:29:43] INFO: Navigating to url https://preprod.app.pieq.ai/ iteration 3
+[2026-09-07 19:30:01] INFO: Filled #username
+[2026-09-07 19:30:04] INFO: Filled #password
+[2026-09-07 19:30:04] INFO: The AndWait methods are deprecated. Use commands.click(selector, { wait: true }) instead.
+[2026-09-07 19:30:13] INFO: Start to measure Dashboard
+[2026-09-07 19:30:14] INFO: Navigating to url https://preprod.app.pieq.ai/dashboard/agency-owner iteration 3
+[2026-09-07 19:30:25] INFO: Take after page complete check screenshot
+[2026-09-07 19:30:28] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:30:31] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:30:34] INFO: Start to measure Policy
+[2026-09-07 19:30:34] INFO: Navigating to url https://preprod.app.pieq.ai/policy iteration 3
+[2026-09-07 19:30:46] INFO: Take after page complete check screenshot
+[2026-09-07 19:30:47] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:30:48] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:30:50] INFO: Start to measure Statement History
+[2026-09-07 19:30:50] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/statement-history iteration 3
+[2026-09-07 19:31:02] INFO: Take after page complete check screenshot
+[2026-09-07 19:31:04] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:31:05] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:31:07] INFO: Start to measure Needs Attention
+[2026-09-07 19:31:07] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/needs-attention iteration 3
+[2026-09-07 19:31:20] INFO: Take after page complete check screenshot
+[2026-09-07 19:31:22] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:31:23] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:31:25] INFO: Start to measure Payable
+[2026-09-07 19:31:25] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/payable-line-items iteration 3
+[2026-09-07 19:31:38] INFO: Take after page complete check screenshot
+[2026-09-07 19:31:39] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:31:40] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:31:43] INFO: Start to measure Agents
+[2026-09-07 19:31:43] INFO: Navigating to url https://preprod.app.pieq.ai/agents iteration 3
+[2026-09-07 19:31:54] INFO: Take after page complete check screenshot
+[2026-09-07 19:31:55] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:31:56] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:31:58] INFO: Start to measure Products
+[2026-09-07 19:31:58] INFO: Navigating to url https://preprod.app.pieq.ai/product iteration 3
+[2026-09-07 19:32:09] INFO: Take after page complete check screenshot
+[2026-09-07 19:32:10] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:32:11] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:32:12] INFO: Start to measure Commission Statement Setup
+[2026-09-07 19:32:12] INFO: Navigating to url https://preprod.app.pieq.ai/commissions/statement-setup iteration 3
+[2026-09-07 19:32:24] INFO: Take after page complete check screenshot
+[2026-09-07 19:32:25] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:32:26] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:32:27] INFO: Start to measure Advance Overview
+[2026-09-07 19:32:27] INFO: Navigating to url https://preprod.app.pieq.ai/advance/overview iteration 3
+[2026-09-07 19:32:40] INFO: Take after page complete check screenshot
+[2026-09-07 19:32:41] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:32:42] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:32:43] INFO: Start to measure Advance Setup
+[2026-09-07 19:32:43] INFO: Navigating to url https://preprod.app.pieq.ai/advance/advance-setup iteration 3
+[2026-09-07 19:32:57] INFO: Take after page complete check screenshot
+[2026-09-07 19:32:58] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:32:59] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:33:00] INFO: Start to measure Upload Commission Statement
+[2026-09-07 19:33:00] INFO: Navigating to url https://preprod.app.pieq.ai/commission-processing/upload-statement iteration 3
+[2026-09-07 19:33:11] INFO: Take after page complete check screenshot
+[2026-09-07 19:33:12] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:33:13] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:33:14] INFO: Start to measure Disbursement History
+[2026-09-07 19:33:14] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/disbursement-history iteration 3
+[2026-09-07 19:33:27] INFO: Take after page complete check screenshot
+[2026-09-07 19:33:28] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:33:29] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:33:30] INFO: Start to measure Miscellaneous Charges
+[2026-09-07 19:33:30] INFO: Navigating to url https://preprod.app.pieq.ai/payment-processing/miscellaneous-charges iteration 3
+[2026-09-07 19:33:43] INFO: Take after page complete check screenshot
+[2026-09-07 19:33:44] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:33:44] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/dashboard/agency-owner TTFB: 915ms DOMContentLoaded: 954ms firstPaint: 1.48s LCP: 12.83s Load: 955ms TBT: 377ms CLS:0.1442
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/policy TTFB: 1.32s DOMContentLoaded: 1.34s firstPaint: 1.83s LCP: 2.93s Load: 1.34s TBT: 822ms CLS:0.0040
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/commission-processing/statement-history TTFB: 1.35s DOMContentLoaded: 1.38s firstPaint: 1.87s LCP: 2.95s Load: 1.38s TBT: 401ms CLS:0.0061
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/commission-processing/needs-attention TTFB: 2.09s DOMContentLoaded: 2.11s firstPaint: 2.62s LCP: 7.08s Load: 2.11s TBT: 1.06s CLS:0.0061
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/payment-processing/payable-line-items TTFB: 1.31s DOMContentLoaded: 1.34s firstPaint: 1.96s LCP: 15.55s Load: 1.34s TBT: 957ms CLS:0.0040
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/agents TTFB: 1.30s DOMContentLoaded: 1.32s firstPaint: 1.78s LCP: 2.85s Load: 1.32s TBT: 667ms CLS:0.0040
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/product TTFB: 1.32s DOMContentLoaded: 1.39s firstPaint: 1.90s LCP: 3.05s Load: 1.40s TBT: 391ms CLS:0.0040
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/commissions/statement-setup TTFB: 1.35s DOMContentLoaded: 1.51s firstPaint: 1.98s LCP: 3.08s Load: 1.51s TBT: 348ms CLS:0.0068
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/advance/overview TTFB: 1.32s DOMContentLoaded: 1.35s firstPaint: 1.75s LCP: 2.82s Load: 1.35s TBT: 477ms CLS:0.0061
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/advance/advance-setup TTFB: 2.70s DOMContentLoaded: 2.95s firstPaint: 3.23s LCP: 6.68s Load: 2.95s TBT: 1.05s CLS:0.0040
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/commission-processing/upload-statement TTFB: 1.52s DOMContentLoaded: 1.54s firstPaint: 1.97s LCP: 6.57s Load: 1.54s TBT: 815ms CLS:0.0040
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/payment-processing/disbursement-history TTFB: 1.43s DOMContentLoaded: 1.45s firstPaint: 1.85s LCP: 6.30s Load: 1.46s TBT: 837ms CLS:0.0054
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/payment-processing/miscellaneous-charges TTFB: 1.57s DOMContentLoaded: 1.60s firstPaint: 1.95s LCP: 5.57s Load: 1.60s TBT: 1.02s CLS:0.0054
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/dashboard/agency-owner 29 requests, TTFB: 915ms (σ198.00ms 18.8%), firstPaint: 1.53s (σ201.00ms 12.2%), FCP: 1.53s (σ201.00ms 12.2%), DOMContentLoaded: 996ms (σ186.00ms 16.8%), LCP: 13.82s (σ1.07s 7.6%), CLS: 0.1442 (σ0.01 5.7%), TBT: 381ms (σ47.00ms 11.3%), CPUBenchmark: 94ms (σ6.00ms 6.3%), Load: 997ms (σ186.00ms 16.8%) (3 runs)
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/policy 21 requests, TTFB: 1.32s (σ167.00ms 11.7%), firstPaint: 1.85s (σ978.00ms 38.6%), FCP: 1.85s (σ978.00ms 38.6%), DOMContentLoaded: 1.34s (σ186.00ms 12.6%), LCP: 16.20s (σ6.49s 53.7%), CLS: 0.004 (σ0.00 70.7%), TBT: 779ms (σ90.00ms 12.2%), CPUBenchmark: 96ms (σ4.00ms 4.3%), Load: 1.34s (σ186.00ms 12.6%) (3 runs)
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/commission-processing/statement-history 13 requests, TTFB: 1.35s (σ21.00ms 1.6%), firstPaint: 1.87s (σ46.00ms 2.5%), FCP: 1.87s (σ46.00ms 2.5%), DOMContentLoaded: 1.38s (σ19.00ms 1.4%), LCP: 2.95s (σ6.68s 88.3%), CLS: 0.0061 (σ0.00 0%), TBT: 715ms (σ236.00ms 33.8%), CPUBenchmark: 96ms (σ3.00ms 3.0%), Load: 1.38s (σ19.00ms 1.4%) (3 runs)
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/commission-processing/needs-attention 12 requests, TTFB: 1.29s (σ436.00ms 29.4%), firstPaint: 1.93s (σ348.00ms 16.4%), FCP: 1.93s (σ348.00ms 16.4%), DOMContentLoaded: 1.31s (σ376.00ms 23.8%), LCP: 6.67s (σ281.00ms 4.2%), CLS: 0.0061 (σ0.00 18.3%), TBT: 1.32s (σ186.00ms 14.3%), CPUBenchmark: 107ms (σ14.00ms 13.8%), Load: 1.32s (σ376.00ms 23.8%) (3 runs)
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/payment-processing/payable-line-items 22 requests, TTFB: 1.31s (σ5.00ms 0.4%), firstPaint: 1.96s (σ128.00ms 6.6%), FCP: 1.96s (σ128.00ms 6.6%), DOMContentLoaded: 1.34s (σ14.00ms 1.0%), LCP: 15.55s (σ2.95s 17.5%), CLS: 0.0054 (σ0.00 13.3%), TBT: 957ms (σ192.00ms 18.6%), CPUBenchmark: 96ms (σ12.00ms 12.2%), Load: 1.34s (σ14.00ms 1.0%) (3 runs)
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/agents 18 requests, TTFB: 1.32s (σ185.00ms 12.8%), firstPaint: 1.93s (σ292.00ms 14.2%), FCP: 1.93s (σ292.00ms 14.2%), DOMContentLoaded: 1.36s (σ225.00ms 15.0%), LCP: 3.13s (σ428.00ms 13.0%), CLS: 0.004 (σ0.00 0%), TBT: 667ms (σ90.00ms 13.2%), CPUBenchmark: 92ms (σ7.00ms 7.6%), Load: 1.36s (σ225.00ms 15.0%) (3 runs)
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/product 23 requests, TTFB: 1.32s (σ4.00ms 0.3%), firstPaint: 1.85s (σ54.00ms 3.0%), FCP: 1.85s (σ54.00ms 3.0%), DOMContentLoaded: 1.35s (σ23.00ms 1.7%), LCP: 14.10s (σ5.46s 50.8%), CLS: 0.004 (σ0.00 0%), TBT: 573ms (σ104.00ms 19.4%), CPUBenchmark: 84ms (σ9.00ms 10.8%), Load: 1.35s (σ23.00ms 1.7%) (3 runs)
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/commissions/statement-setup 24 requests, TTFB: 1.31s (σ19.00ms 1.4%), firstPaint: 1.80s (σ105.00ms 5.7%), FCP: 1.80s (σ105.00ms 5.7%), DOMContentLoaded: 1.33s (σ85.00ms 6.1%), LCP: 14.16s (σ5.33s 50.2%), CLS: 0.0068 (σ0.00 22.4%), TBT: 631ms (σ199.00ms 33.0%), CPUBenchmark: 81ms (σ3.00ms 3.6%), Load: 1.33s (σ86.00ms 6.2%) (3 runs)
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/advance/overview 27 requests, TTFB: 1.31s (σ7.00ms 0.5%), firstPaint: 1.78s (σ26.00ms 1.5%), FCP: 1.78s (σ26.00ms 1.5%), DOMContentLoaded: 1.34s (σ7.00ms 0.6%), LCP: 3.02s (σ5.55s 81.1%), CLS: 0.004 (σ0.00 21.0%), TBT: 606ms (σ162.00ms 25.0%), CPUBenchmark: 87ms (σ11.00ms 13.8%), Load: 1.34s (σ7.00ms 0.6%) (3 runs)
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/advance/advance-setup 13 requests, TTFB: 1.31s (σ768.00ms 46.9%), firstPaint: 1.75s (σ716.00ms 32.3%), FCP: 1.75s (σ716.00ms 32.3%), DOMContentLoaded: 1.33s (σ791.00ms 43.2%), LCP: 5.60s (σ781.00ms 13.7%), CLS: 0.0061 (σ0.00 18.3%), TBT: 1.05s (σ203.00ms 19.7%), CPUBenchmark: 87ms (σ2.00ms 1.9%), Load: 1.33s (σ791.00ms 43.2%) (3 runs)
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/commission-processing/upload-statement 15 requests, TTFB: 1.47s (σ93.00ms 6.5%), firstPaint: 1.97s (σ107.00ms 5.6%), FCP: 1.97s (σ107.00ms 5.6%), DOMContentLoaded: 1.50s (σ94.00ms 6.4%), LCP: 6.57s (σ431.00ms 6.5%), CLS: 0.004 (σ0.00 21.0%), TBT: 1.04s (σ216.00ms 20.2%), CPUBenchmark: 91ms (σ5.00ms 5.1%), Load: 1.50s (σ94.00ms 6.4%) (3 runs)
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/payment-processing/disbursement-history 13 requests, TTFB: 1.31s (σ60.00ms 4.4%), firstPaint: 1.87s (σ36.00ms 1.9%), FCP: 1.87s (σ36.00ms 1.9%), DOMContentLoaded: 1.33s (σ58.00ms 4.2%), LCP: 6.32s (σ68.00ms 1.1%), CLS: 0.0054 (σ0.00 0%), TBT: 882ms (σ229.00ms 22.4%), CPUBenchmark: 94ms (σ10.00ms 11.8%), Load: 1.33s (σ58.00ms 4.2%) (3 runs)
+[2026-09-07 19:33:48] INFO: https://preprod.app.pieq.ai/payment-processing/miscellaneous-charges 11 requests, TTFB: 1.36s (σ110.00ms 7.8%), firstPaint: 1.95s (σ125.00ms 6.3%), FCP: 1.95s (σ125.00ms 6.3%), DOMContentLoaded: 1.44s (σ102.00ms 7.0%), LCP: 5.95s (σ312.00ms 5.2%), CLS: 0.0054 (σ0.00 13.3%), TBT: 1.54s (σ265.00ms 19.0%), CPUBenchmark: 85ms (σ8.00ms 9.3%), Load: 1.44s (σ102.00ms 7.0%) (3 runs)
+[2026-09-07 19:34:08] INFO: HTML stored in C:\Users\user\Downloads\ICM-Performance_test\ICM-Performance\sitespeed-result\dashboard_agency_owner_js\2026-09-07-19-20-32
+[PASS] Agency Owner test completed.
+
+[3/3] Running Agent performance test...
+[2026-09-07 19:34:21] INFO: Versions OS: win32 10.0.26200 nodejs: v24.12.0 sitespeed.io: 42.6.0 browsertime: 28.3.0 coach: 9.2.1
+[2026-09-07 19:34:22] INFO: Running tests using Chrome - 3 iteration(s)
+[2026-09-07 19:34:26] INFO: Navigating to url https://preprod.app.pieq.ai/ iteration 1
+[2026-09-07 19:34:46] INFO: Filled #username
+[2026-09-07 19:34:47] INFO: Filled #password
+[2026-09-07 19:34:48] INFO: The AndWait methods are deprecated. Use commands.click(selector, { wait: true }) instead.
+[2026-09-07 19:34:58] INFO: Start to measure Dashboard
+[2026-09-07 19:34:58] INFO: Navigating to url https://preprod.app.pieq.ai/dashboard/agent iteration 1
+[2026-09-07 19:35:14] INFO: Take after page complete check screenshot
+[2026-09-07 19:35:17] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:35:19] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:35:23] INFO: Start to measure Book of Business
+[2026-09-07 19:35:23] INFO: Navigating to url https://preprod.app.pieq.ai/book-of-business iteration 1
+[2026-09-07 19:35:36] INFO: Take after page complete check screenshot
+[2026-09-07 19:35:37] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:35:38] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:35:40] INFO: Start to measure Ledger
+[2026-09-07 19:35:40] INFO: Navigating to url https://preprod.app.pieq.ai/ledger iteration 1
+[2026-09-07 19:35:53] INFO: Take after page complete check screenshot
+[2026-09-07 19:35:54] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:35:54] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:35:58] INFO: https://preprod.app.pieq.ai/dashboard/agent TTFB: 3.75s DOMContentLoaded: 3.78s firstPaint: 4.22s LCP: 20.14s Load: 3.78s TBT: 245ms CLS:0.2159
+[2026-09-07 19:35:58] INFO: https://preprod.app.pieq.ai/book-of-business TTFB: 1.32s DOMContentLoaded: 1.35s firstPaint: 1.82s LCP: 3.30s Load: 1.35s TBT: 369ms CLS:0.0040
+[2026-09-07 19:35:58] INFO: https://preprod.app.pieq.ai/ledger TTFB: 1.85s DOMContentLoaded: 2.02s firstPaint: 2.44s LCP: 3.83s Load: 2.02s TBT: 525ms CLS:0.0040
+[2026-09-07 19:36:00] INFO: Navigating to url https://preprod.app.pieq.ai/ iteration 2
+[2026-09-07 19:36:28] INFO: Filled #username
+[2026-09-07 19:36:30] INFO: Filled #password
+[2026-09-07 19:36:30] INFO: The AndWait methods are deprecated. Use commands.click(selector, { wait: true }) instead.
+[2026-09-07 19:36:40] INFO: Start to measure Dashboard
+[2026-09-07 19:36:40] INFO: Navigating to url https://preprod.app.pieq.ai/dashboard/agent iteration 2
+[2026-09-07 19:36:53] INFO: Take after page complete check screenshot
+[2026-09-07 19:36:54] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:36:54] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:36:55] INFO: Start to measure Book of Business
+[2026-09-07 19:36:55] INFO: Navigating to url https://preprod.app.pieq.ai/book-of-business iteration 2
+[2026-09-07 19:37:08] INFO: Take after page complete check screenshot
+[2026-09-07 19:37:09] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:37:09] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:37:11] INFO: Start to measure Ledger
+[2026-09-07 19:37:11] INFO: Navigating to url https://preprod.app.pieq.ai/ledger iteration 2
+[2026-09-07 19:37:24] INFO: Take after page complete check screenshot
+[2026-09-07 19:37:24] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:37:25] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:37:28] INFO: https://preprod.app.pieq.ai/dashboard/agent TTFB: 1.33s DOMContentLoaded: 1.35s firstPaint: 1.63s LCP: 12.52s Load: 1.35s TBT: 809ms CLS:0.2317
+[2026-09-07 19:37:28] INFO: https://preprod.app.pieq.ai/book-of-business TTFB: 891ms DOMContentLoaded: 908ms firstPaint: 1.22s LCP: 13.18s Load: 909ms TBT: 596ms CLS:0.0040
+[2026-09-07 19:37:28] INFO: https://preprod.app.pieq.ai/ledger TTFB: 1.29s DOMContentLoaded: 1.32s firstPaint: 1.77s LCP: 3.18s Load: 1.32s TBT: 516ms CLS:0.0040
+[2026-09-07 19:37:31] INFO: Navigating to url https://preprod.app.pieq.ai/ iteration 3
+[2026-09-07 19:37:47] INFO: Filled #username
+[2026-09-07 19:37:48] INFO: Filled #password
+[2026-09-07 19:37:49] INFO: The AndWait methods are deprecated. Use commands.click(selector, { wait: true }) instead.
+[2026-09-07 19:37:59] INFO: Start to measure Dashboard
+[2026-09-07 19:37:59] INFO: Navigating to url https://preprod.app.pieq.ai/dashboard/agent iteration 3
+[2026-09-07 19:38:14] INFO: Take after page complete check screenshot
+[2026-09-07 19:38:15] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:38:16] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:38:18] INFO: Start to measure Book of Business
+[2026-09-07 19:38:18] INFO: Navigating to url https://preprod.app.pieq.ai/book-of-business iteration 3
+[2026-09-07 19:38:30] INFO: Take after page complete check screenshot
+[2026-09-07 19:38:31] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:38:32] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:38:35] INFO: Start to measure Ledger
+[2026-09-07 19:38:35] INFO: Navigating to url https://preprod.app.pieq.ai/ledger iteration 3
+[2026-09-07 19:38:47] INFO: Take after page complete check screenshot
+[2026-09-07 19:38:48] INFO: Take cumulative layout shift screenshot
+[2026-09-07 19:38:49] INFO: Take largest contentful paint screenshot
+[2026-09-07 19:38:54] INFO: https://preprod.app.pieq.ai/dashboard/agent TTFB: 1.30s DOMContentLoaded: 1.34s firstPaint: 1.75s LCP: 15.86s Load: 1.34s TBT: 1.44s CLS:0.1944
+[2026-09-07 19:38:54] INFO: https://preprod.app.pieq.ai/book-of-business TTFB: 1.34s DOMContentLoaded: 1.37s firstPaint: 1.88s LCP: 15.86s Load: 1.37s TBT: 785ms CLS:0.0040
+[2026-09-07 19:38:54] INFO: https://preprod.app.pieq.ai/ledger TTFB: 1.32s DOMContentLoaded: 1.35s firstPaint: 1.90s LCP: 15.50s Load: 1.35s TBT: 934ms CLS:0.0040
+[2026-09-07 19:38:54] INFO: https://preprod.app.pieq.ai/dashboard/agent 23 requests, TTFB: 1.33s (σ1.15s 53.9%), firstPaint: 1.75s (σ1.19s 47.1%), FCP: 1.75s (σ1.19s 47.1%), DOMContentLoaded: 1.35s (σ1.15s 53.3%), LCP: 15.86s (σ3.12s 19.3%), CLS: 0.2159 (σ0.02 7.1%), TBT: 809ms (σ490.00ms 58.8%), CPUBenchmark: 89ms (σ9.00ms 9.9%), Load: 1.35s (σ1.15s 53.3%) (3 runs)
+[2026-09-07 19:38:54] INFO: https://preprod.app.pieq.ai/book-of-business 19 requests, TTFB: 1.32s (σ206.00ms 17.5%), firstPaint: 1.82s (σ300.00ms 18.3%), FCP: 1.82s (σ300.00ms 18.3%), DOMContentLoaded: 1.35s (σ212.00ms 17.6%), LCP: 13.18s (σ5.40s 50.1%), CLS: 0.004 (σ0.00 0%), TBT: 596ms (σ170.00ms 29.2%), CPUBenchmark: 90ms (σ4.00ms 4.3%), Load: 1.35s (σ212.00ms 17.5%) (3 runs)
+[2026-09-07 19:38:54] INFO: https://preprod.app.pieq.ai/ledger 21 requests, TTFB: 1.32s (σ256.00ms 17.2%), firstPaint: 1.90s (σ289.00ms 14.2%), FCP: 1.90s (σ289.00ms 14.2%), DOMContentLoaded: 1.35s (σ321.00ms 20.6%), LCP: 3.83s (σ5.66s 75.4%), CLS: 0.004 (σ0.00 0%), TBT: 525ms (σ195.00ms 29.6%), CPUBenchmark: 82ms (σ15.00ms 18.5%), Load: 1.35s (σ321.00ms 20.5%) (3 runs)
+[2026-09-07 19:39:19] INFO: HTML stored in C:\Users\user\Downloads\ICM-Performance_test\ICM-Performance\sitespeed-result\dashboard_agent_preprod_js\2026-09-07-19-34-21
+[PASS] Agent test completed.
+
+Building custom dashboards...
+[PRUNE] dashboard_agency_owner_js: kept 5 run(s), removed 1
+[PRUNE] dashboard_agent_preprod_js: kept 5 run(s), removed 1
+[PRUNE] dashboard_op_manager_js: kept 5 run(s), removed 1
+[PRUNE] Removed 3 old run folder(s), keeping up to 5 per script.
+Wrote C:\Users\user\Downloads\ICM-Performance_test\ICM-Performance\custom-dashboard\index.html
+Ops Manager  (sitespeed-result/dashboard_op_manager_js\2026-09-07-19-06-03): Dashboard, Policy, Statement History, Needs Attention, Payable, user-management, carriers, agents, product, statement-setup, overview, advance-setup, upload-statement, disbursement-history, miscellaneous-charges
+Agency Owner  (sitespeed-result/dashboard_agency_owner_js\2026-09-07-19-20-32): Agency Owner, Policy, Statement History, Needs Attention, Payable, agents, product, statement-setup, overview, advance-setup, upload-statement, disbursement-history, miscellaneous-charges
+Agent  (sitespeed-result/dashboard_agent_preprod_js\2026-09-07-19-34-21): agent, book-of-business, ledger
+
+============================================================
+ All 3 role tests completed successfully.
+============================================================
+
+Custom dashboard (latest): custom-dashboard\index.html
+===== run-all-roles.cmd finished (code 0) 2026-09-07 19:39:24 =====
+
+===== run-all-roles.cmd started 2026-09-15 07:59:39 =====
+
+===== run-all-roles.sh started 2026-10-15 07:54:02 =====
+
+============================================================
+ Environment : prod
+ Base URL    : https://icm.pieq.ai
+ Extra args  : -n 1
+============================================================
+
+[1/3] Running Ops Manager performance test...
+[2026-10-15 07:54:03] INFO: Versions OS: darwin 25.6.0 nodejs: v22.20.0 sitespeed.io: 42.6.0 browsertime: 28.3.0 coach: 9.2.1
+[2026-10-15 07:54:03] INFO: Running tests using Chrome - 1 iteration(s)
+[2026-10-15 07:54:06] INFO: Navigating to url https://icm.pieq.ai/ iteration 1
+[2026-10-15 07:54:15] INFO: Filled #username
+[2026-10-15 07:54:15] INFO: The AndWait methods are deprecated. Use commands.click(selector, { wait: true }) instead.
+[2026-10-15 07:54:23] INFO: Filled #password
+[2026-10-15 07:54:23] INFO: The AndWait methods are deprecated. Use commands.click(selector, { wait: true }) instead.
+[2026-10-15 07:54:30] INFO: Start to measure Dashboard
+[2026-10-15 07:54:30] INFO: Navigating to url https://icm.pieq.ai/dashboard/ops-manager iteration 1
+[2026-10-15 07:54:42] INFO: Take after page complete check screenshot
+[2026-10-15 07:54:43] INFO: Take cumulative layout shift screenshot
+[2026-10-15 07:54:43] INFO: Take largest contentful paint screenshot
+[2026-10-15 07:54:44] INFO: Start to measure Policy
+[2026-10-15 07:54:44] INFO: Navigating to url https://icm.pieq.ai/policy iteration 1
+[2026-10-15 07:54:56] INFO: Take after page complete check screenshot
+[2026-10-15 07:54:56] INFO: Take cumulative layout shift screenshot
+[2026-10-15 07:54:57] INFO: Take largest contentful paint screenshot
+[2026-10-15 07:54:57] INFO: Start to measure Statement History
+[2026-10-15 07:54:57] INFO: Navigating to url https://icm.pieq.ai/commission-processing/statement-history iteration 1
+[2026-10-15 07:55:10] INFO: Take after page complete check screenshot
+[2026-10-15 07:55:10] INFO: Take cumulative layout shift screenshot
+[2026-10-15 07:55:11] INFO: Take largest contentful paint screenshot
+[2026-10-15 07:55:11] INFO: Start to measure Needs Attention
+[2026-10-15 07:55:11] INFO: Navigating to url https://icm.pieq.ai/commission-processing/needs-attention iteration 1
+[2026-10-15 07:55:24] INFO: Take after page complete check screenshot
+[2026-10-15 07:55:24] INFO: Take cumulative layout shift screenshot
+[2026-10-15 07:55:24] INFO: Take largest contentful paint screenshot
+[2026-10-15 07:55:25] INFO: Start to measure Payable
+[2026-10-15 07:55:25] INFO: Navigating to url https://icm.pieq.ai/payment-processing/payable-line-items iteration 1
+[2026-10-15 07:55:37] INFO: Take after page complete check screenshot
+[2026-10-15 07:55:38] INFO: Take cumulative layout shift screenshot
+[2026-10-15 07:55:38] INFO: Take largest contentful paint screenshot
+[2026-10-15 07:55:39] INFO: Start to measure User Management
+[2026-10-15 07:55:39] INFO: Navigating to url https://icm.pieq.ai/user-management iteration 1
+[2026-10-15 07:55:51] INFO: Take after page complete check screenshot
+[2026-10-15 07:55:52] INFO: Take cumulative layout shift screenshot
+[2026-10-15 07:55:52] INFO: Take largest contentful paint screenshot
+[2026-10-15 07:55:53] INFO: Start to measure Carriers
+[2026-10-15 07:55:53] INFO: Navigating to url https://icm.pieq.ai/carriers iteration 1
+[2026-10-15 07:56:05] INFO: Take after page complete check screenshot
+[2026-10-15 07:56:06] INFO: Take cumulative layout shift screenshot
+[2026-10-15 07:56:06] INFO: Take largest contentful paint screenshot
+[2026-10-15 07:56:06] INFO: No element attached to the entry in largest-contentful-paint
+[2026-10-15 07:56:07] INFO: Start to measure Agents
+[2026-10-15 07:56:07] INFO: Navigating to url https://icm.pieq.ai/agents iteration 1
+[2026-10-15 07:56:20] INFO: Take after page complete check screenshot
+[2026-10-15 07:56:20] INFO: Take cumulative layout shift screenshot
+[2026-10-15 07:56:20] INFO: Take largest contentful paint screenshot
+[2026-10-15 07:56:20] INFO: No element attached to the entry in largest-contentful-paint
+[2026-10-15 07:56:21] INFO: Start to measure Products
+[2026-10-15 07:56:21] INFO: Navigating to url https://icm.pieq.ai/product iteration 1
+[2026-10-15 07:56:33] INFO: Take after page complete check screenshot
+[2026-10-15 07:56:34] INFO: Take cumulative layout shift screenshot
+[2026-10-15 07:56:34] INFO: Take largest contentful paint screenshot
+[2026-10-15 07:56:34] INFO: No element attached to the entry in largest-contentful-paint
+[2026-10-15 07:56:34] INFO: Start to measure Commission Statement Setup
+[2026-10-15 07:56:34] INFO: Navigating to url https://icm.pieq.ai/commissions/statement-setup iteration 1
+[2026-10-15 07:56:47] INFO: Take after page complete check screenshot
+[2026-10-15 07:56:47] INFO: Take cumulative layout shift screenshot
+[2026-10-15 07:56:48] INFO: Take largest contentful paint screenshot
+[2026-10-15 07:56:48] INFO: Start to measure Advance Overview
+[2026-10-15 07:56:48] INFO: Navigating to url https://icm.pieq.ai/advance/overview iteration 1
+[2026-10-15 07:57:01] INFO: Take after page complete check screenshot
+[2026-10-15 07:57:01] INFO: Take cumulative layout shift screenshot
+[2026-10-15 07:57:01] INFO: Take largest contentful paint screenshot
+[2026-10-15 07:57:02] INFO: Start to measure Advance Setup
+[2026-10-15 07:57:02] INFO: Navigating to url https://icm.pieq.ai/advance/advance-setup iteration 1
+[2026-10-15 07:57:15] INFO: Take after page complete check screenshot
+[2026-10-15 07:57:15] INFO: Take cumulative layout shift screenshot
+[2026-10-15 07:57:16] INFO: Take largest contentful paint screenshot
+[2026-10-15 07:57:16] INFO: Start to measure Upload Commission Statement
+[2026-10-15 07:57:16] INFO: Navigating to url https://icm.pieq.ai/commission-processing/upload-statement iteration 1
+[2026-10-15 07:57:29] INFO: Take after page complete check screenshot
+[2026-10-15 07:57:29] INFO: Take cumulative layout shift screenshot
+[2026-10-15 07:57:29] INFO: Take largest contentful paint screenshot
+[2026-10-15 07:57:30] INFO: Start to measure Disbursement History
+[2026-10-15 07:57:30] INFO: Navigating to url https://icm.pieq.ai/payment-processing/disbursement-history iteration 1
+[2026-10-15 07:57:42] INFO: Take after page complete check screenshot
+[2026-10-15 07:57:43] INFO: Take cumulative layout shift screenshot
+[2026-10-15 07:57:43] INFO: Take largest contentful paint screenshot
+[2026-10-15 07:57:44] INFO: Start to measure Miscellaneous Charges
+[2026-10-15 07:57:44] INFO: Navigating to url https://icm.pieq.ai/payment-processing/miscellaneous-charges iteration 1
+[2026-10-15 07:57:56] INFO: Take after page complete check screenshot
+[2026-10-15 07:57:57] INFO: Take cumulative layout shift screenshot
+[2026-10-15 07:57:57] INFO: Take largest contentful paint screenshot
+[2026-10-15 07:58:00] INFO: https://icm.pieq.ai/dashboard/ops-manager 10 requests, TTFB: 1.34s, firstPaint: 1.41s, FCP: 1.41s, DOMContentLoaded: 1.35s, LCP: 3.36s, CLS: 0.0035, TBT: 13ms, CPUBenchmark: 46ms, Load: 1.35s
+[2026-10-15 07:58:00] INFO: https://icm.pieq.ai/policy 36 requests, TTFB: 1.25s, firstPaint: 1.32s, FCP: 1.32s, DOMContentLoaded: 1.26s, LCP: 4.24s, CLS: 0.01, TBT: 0ms, CPUBenchmark: 46ms, Load: 1.26s
+[2026-10-15 07:58:00] INFO: https://icm.pieq.ai/commission-processing/statement-history 39 requests, TTFB: 1.29s, firstPaint: 1.38s, FCP: 1.38s, DOMContentLoaded: 1.31s, LCP: 3.36s, CLS: 0.0035, TBT: 83ms, CPUBenchmark: 45ms, Load: 1.31s
+[2026-10-15 07:58:00] INFO: https://icm.pieq.ai/commission-processing/needs-attention 12 requests, TTFB: 1.35s, firstPaint: 1.44s, FCP: 1.44s, DOMContentLoaded: 1.38s, LCP: 3.34s, CLS: 0.0055, TBT: 73ms, CPUBenchmark: 46ms, Load: 1.38s
+[2026-10-15 07:58:00] INFO: https://icm.pieq.ai/payment-processing/payable-line-items 35 requests, TTFB: 1.38s, firstPaint: 1.46s, FCP: 1.46s, DOMContentLoaded: 1.39s, LCP: 4.79s, CLS: 0.0035, TBT: 28ms, CPUBenchmark: 46ms, Load: 1.39s
+[2026-10-15 07:58:00] INFO: https://icm.pieq.ai/user-management 27 requests, TTFB: 1.25s, firstPaint: 1.34s, FCP: 1.34s, DOMContentLoaded: 1.27s, LCP: 3.92s, CLS: 0.0063, TBT: 1ms, CPUBenchmark: 49ms, Load: 1.27s
+[2026-10-15 07:58:00] INFO: https://icm.pieq.ai/carriers 28 requests, TTFB: 1.27s, firstPaint: 1.38s, FCP: 1.38s, DOMContentLoaded: 1.29s, LCP: 3.91s, CLS: 0.0035, TBT: 0ms, CPUBenchmark: 64ms, Load: 1.29s
+[2026-10-15 07:58:00] INFO: https://icm.pieq.ai/agents 28 requests, TTFB: 1.26s, firstPaint: 1.34s, FCP: 1.34s, DOMContentLoaded: 1.27s, LCP: 3.84s, CLS: 0.0047, TBT: 0ms, CPUBenchmark: 46ms, Load: 1.27s
+[2026-10-15 07:58:00] INFO: https://icm.pieq.ai/product 29 requests, TTFB: 1.25s, firstPaint: 1.34s, FCP: 1.34s, DOMContentLoaded: 1.26s, LCP: 3.14s, CLS: 0.0035, TBT: 0ms, CPUBenchmark: 45ms, Load: 1.27s
+[2026-10-15 07:58:00] INFO: https://icm.pieq.ai/commissions/statement-setup 34 requests, TTFB: 1.23s, firstPaint: 1.31s, FCP: 1.31s, DOMContentLoaded: 1.25s, LCP: 3.22s, CLS: 0.0061, TBT: 0ms, CPUBenchmark: 46ms, Load: 1.25s
+[2026-10-15 07:58:00] INFO: https://icm.pieq.ai/advance/overview 33 requests, TTFB: 1.36s, firstPaint: 1.44s, FCP: 1.44s, DOMContentLoaded: 1.37s, LCP: 3.34s, CLS: 0.0035, TBT: 0ms, CPUBenchmark: 47ms, Load: 1.37s
+[2026-10-15 07:58:00] INFO: https://icm.pieq.ai/advance/advance-setup 14 requests, TTFB: 1.47s, firstPaint: 1.59s, FCP: 1.59s, DOMContentLoaded: 1.50s, LCP: 3.48s, CLS: 0.0055, TBT: 9ms, CPUBenchmark: 46ms, Load: 1.50s
+[2026-10-15 07:58:00] INFO: https://icm.pieq.ai/commission-processing/upload-statement 14 requests, TTFB: 1.29s, firstPaint: 1.39s, FCP: 1.39s, DOMContentLoaded: 1.31s, LCP: 3.68s, CLS: 0.0055, TBT: 59ms, CPUBenchmark: 46ms, Load: 1.31s
+[2026-10-15 07:58:00] INFO: https://icm.pieq.ai/payment-processing/disbursement-history 13 requests, TTFB: 1.37s, firstPaint: 1.46s, FCP: 1.46s, DOMContentLoaded: 1.39s, LCP: 3.12s, CLS: 0.0049, TBT: 0ms, CPUBenchmark: 46ms, Load: 1.39s
+[2026-10-15 07:58:00] INFO: https://icm.pieq.ai/payment-processing/miscellaneous-charges 11 requests, TTFB: 1.37s, firstPaint: 1.46s, FCP: 1.46s, DOMContentLoaded: 1.38s, LCP: 3.12s, CLS: 0.0049, TBT: 0ms, CPUBenchmark: 46ms, Load: 1.38s
+[2026-10-15 07:58:02] INFO: HTML stored in /Users/kesavaramanrajendran/Documents/Pieq - Automation/ICM-Performance/sitespeed-result/dashboard_op_manager_js/2026-10-15-07-54-03
+[PASS] Ops Manager test completed.
+
+[2/3] Running Agency Owner performance test...
+[2026-10-15 07:58:03] INFO: Versions OS: darwin 25.6.0 nodejs: v22.20.0 sitespeed.io: 42.6.0 browsertime: 28.3.0 coach: 9.2.1
+[2026-10-15 07:58:03] INFO: Running tests using Chrome - 1 iteration(s)
+[2026-10-15 07:58:04] INFO: Navigating to url https://icm.pieq.ai/ iteration 1
+[2026-10-15 07:58:14] INFO: Filled #username
+[2026-10-15 07:58:14] INFO: The AndWait methods are deprecated. Use commands.click(selector, { wait: true }) instead.
+[2026-10-15 07:58:21] INFO: Filled #password
+[2026-10-15 07:58:22] INFO: The AndWait methods are deprecated. Use commands.click(selector, { wait: true }) instead.
+[2026-10-15 07:58:29] INFO: Start to measure Dashboard
+[2026-10-15 07:58:29] INFO: Navigating to url https://icm.pieq.ai/dashboard/agency-owner iteration 1
+[2026-10-15 07:58:41] INFO: Take after page complete check screenshot
+[2026-10-15 07:58:42] INFO: Take cumulative layout shift screenshot
+[2026-10-15 07:58:42] INFO: Take largest contentful paint screenshot
+[2026-10-15 07:58:43] INFO: Start to measure Policy
+[2026-10-15 07:58:43] INFO: Navigating to url https://icm.pieq.ai/policy iteration 1
+[2026-10-15 07:58:55] INFO: Take after page complete check screenshot
+[2026-10-15 07:58:56] INFO: Take cumulative layout shift screenshot
+[2026-10-15 07:58:56] INFO: Take largest contentful paint screenshot
+[2026-10-15 07:58:56] INFO: Start to measure Statement History
+[2026-10-15 07:58:56] INFO: Navigating to url https://icm.pieq.ai/commission-processing/statement-history iteration 1
+[2026-10-15 07:59:09] INFO: Take after page complete check screenshot
+[2026-10-15 07:59:09] INFO: Take cumulative layout shift screenshot
+[2026-10-15 07:59:10] INFO: Take largest contentful paint screenshot
+[2026-10-15 07:59:10] INFO: Start to measure Needs Attention
+[2026-10-15 07:59:10] INFO: Navigating to url https://icm.pieq.ai/commission-processing/needs-attention iteration 1
+[2026-10-15 07:59:23] INFO: Take after page complete check screenshot
+[2026-10-15 07:59:23] INFO: Take cumulative layout shift screenshot
+[2026-10-15 07:59:23] INFO: Take largest contentful paint screenshot
+[2026-10-15 07:59:24] INFO: Start to measure Payable
+[2026-10-15 07:59:24] INFO: Navigating to url https://icm.pieq.ai/payment-processing/payable-line-items iteration 1
+[2026-10-15 07:59:36] INFO: Take after page complete check screenshot
+[2026-10-15 07:59:37] INFO: Take cumulative layout shift screenshot
+[2026-10-15 07:59:37] INFO: Take largest contentful paint screenshot
+[2026-10-15 07:59:38] INFO: Start to measure User Management
+[2026-10-15 07:59:38] INFO: Navigating to url https://icm.pieq.ai/user-management iteration 1
+[2026-10-15 07:59:50] INFO: Take after page complete check screenshot
+[2026-10-15 07:59:51] INFO: Take cumulative layout shift screenshot
+[2026-10-15 07:59:51] INFO: Take largest contentful paint screenshot
+[2026-10-15 07:59:51] INFO: Start to measure Carriers
+[2026-10-15 07:59:51] INFO: Navigating to url https://icm.pieq.ai/carriers iteration 1
+[2026-10-15 08:00:04] INFO: Take after page complete check screenshot
+[2026-10-15 08:00:04] INFO: Take cumulative layout shift screenshot
+[2026-10-15 08:00:05] INFO: Take largest contentful paint screenshot
+[2026-10-15 08:00:05] INFO: No element attached to the entry in largest-contentful-paint
+[2026-10-15 08:00:05] INFO: Start to measure Agents
+[2026-10-15 08:00:05] INFO: Navigating to url https://icm.pieq.ai/agents iteration 1
+[2026-10-15 08:00:18] INFO: Take after page complete check screenshot
+[2026-10-15 08:00:18] INFO: Take cumulative layout shift screenshot
+[2026-10-15 08:00:19] INFO: Take largest contentful paint screenshot
+[2026-10-15 08:00:19] INFO: No element attached to the entry in largest-contentful-paint
+[2026-10-15 08:00:19] INFO: Start to measure Products
+[2026-10-15 08:00:19] INFO: Navigating to url https://icm.pieq.ai/product iteration 1
+[2026-10-15 08:00:32] INFO: Take after page complete check screenshot
+[2026-10-15 08:00:32] INFO: Take cumulative layout shift screenshot
+[2026-10-15 08:00:32] INFO: Take largest contentful paint screenshot
+[2026-10-15 08:00:32] INFO: No element attached to the entry in largest-contentful-paint
+[2026-10-15 08:00:33] INFO: Start to measure Commission Statement Setup
+[2026-10-15 08:00:33] INFO: Navigating to url https://icm.pieq.ai/commissions/statement-setup iteration 1
+[2026-10-15 08:00:45] INFO: Take after page complete check screenshot
+[2026-10-15 08:00:46] INFO: Take cumulative layout shift screenshot
+[2026-10-15 08:00:46] INFO: Take largest contentful paint screenshot
+[2026-10-15 08:00:47] INFO: Start to measure Advance Overview
+[2026-10-15 08:00:47] INFO: Navigating to url https://icm.pieq.ai/advance/overview iteration 1
+[2026-10-15 08:00:59] INFO: Take after page complete check screenshot
+[2026-10-15 08:01:00] INFO: Take cumulative layout shift screenshot
+[2026-10-15 08:01:00] INFO: Take largest contentful paint screenshot
+[2026-10-15 08:01:00] INFO: Start to measure Advance Setup
+[2026-10-15 08:01:00] INFO: Navigating to url https://icm.pieq.ai/advance/advance-setup iteration 1
+[2026-10-15 08:01:13] INFO: Take after page complete check screenshot
+[2026-10-15 08:01:13] INFO: Take cumulative layout shift screenshot
+[2026-10-15 08:01:14] INFO: Take largest contentful paint screenshot
+[2026-10-15 08:01:14] INFO: Start to measure Upload Commission Statement
+[2026-10-15 08:01:14] INFO: Navigating to url https://icm.pieq.ai/commission-processing/upload-statement iteration 1
+[2026-10-15 08:01:27] INFO: Take after page complete check screenshot
+[2026-10-15 08:01:27] INFO: Take cumulative layout shift screenshot
+[2026-10-15 08:01:28] INFO: Take largest contentful paint screenshot
+[2026-10-15 08:01:28] INFO: Start to measure Disbursement History
+[2026-10-15 08:01:28] INFO: Navigating to url https://icm.pieq.ai/payment-processing/disbursement-history iteration 1
+[2026-10-15 08:01:41] INFO: Take after page complete check screenshot
+[2026-10-15 08:01:41] INFO: Take cumulative layout shift screenshot
+[2026-10-15 08:01:42] INFO: Take largest contentful paint screenshot
+[2026-10-15 08:01:42] INFO: Start to measure Miscellaneous Charges
+[2026-10-15 08:01:42] INFO: Navigating to url https://icm.pieq.ai/payment-processing/miscellaneous-charges iteration 1
+[2026-10-15 08:01:54] INFO: Take after page complete check screenshot
+[2026-10-15 08:01:55] INFO: Take cumulative layout shift screenshot
+[2026-10-15 08:01:55] INFO: Take largest contentful paint screenshot
+[2026-10-15 08:01:58] INFO: https://icm.pieq.ai/dashboard/agency-owner 16 requests, TTFB: 1.29s, firstPaint: 1.36s, FCP: 1.36s, DOMContentLoaded: 1.29s, LCP: 3.22s, CLS: 0.2986, TBT: 0ms, CPUBenchmark: 50ms, Load: 1.29s
+[2026-10-15 08:01:58] INFO: https://icm.pieq.ai/policy 36 requests, TTFB: 1.32s, firstPaint: 1.41s, FCP: 1.41s, DOMContentLoaded: 1.33s, LCP: 3.86s, CLS: 0.02, TBT: 0ms, CPUBenchmark: 46ms, Load: 1.33s
+[2026-10-15 08:01:58] INFO: https://icm.pieq.ai/commission-processing/statement-history 40 requests, TTFB: 1.27s, firstPaint: 1.36s, FCP: 1.36s, DOMContentLoaded: 1.29s, LCP: 3.14s, CLS: 0.0055, TBT: 79ms, CPUBenchmark: 49ms, Load: 1.29s
+[2026-10-15 08:01:58] INFO: https://icm.pieq.ai/commission-processing/needs-attention 13 requests, TTFB: 1.32s, firstPaint: 1.41s, FCP: 1.41s, DOMContentLoaded: 1.33s, LCP: 3.14s, CLS: 0.0055, TBT: 65ms, CPUBenchmark: 45ms, Load: 1.34s
+[2026-10-15 08:01:58] INFO: https://icm.pieq.ai/payment-processing/payable-line-items 35 requests, TTFB: 1.30s, firstPaint: 1.38s, FCP: 1.38s, DOMContentLoaded: 1.31s, LCP: 3.16s, CLS: 0.0049, TBT: 69ms, CPUBenchmark: 45ms, Load: 1.31s
+[2026-10-15 08:01:58] INFO: https://icm.pieq.ai/user-management 27 requests, TTFB: 1.26s, firstPaint: 1.34s, FCP: 1.34s, DOMContentLoaded: 1.27s, LCP: 3.84s, CLS: 0.0063, TBT: 0ms, CPUBenchmark: 45ms, Load: 1.27s
+[2026-10-15 08:01:58] INFO: https://icm.pieq.ai/carriers 28 requests, TTFB: 1.25s, firstPaint: 1.34s, FCP: 1.34s, DOMContentLoaded: 1.27s, LCP: 3.71s, CLS: 0.0035, TBT: 0ms, CPUBenchmark: 46ms, Load: 1.27s
+[2026-10-15 08:01:58] INFO: https://icm.pieq.ai/agents 28 requests, TTFB: 1.48s, firstPaint: 1.57s, FCP: 1.57s, DOMContentLoaded: 1.50s, LCP: 4.14s, CLS: 0.0047, TBT: 0ms, CPUBenchmark: 46ms, Load: 1.50s
+[2026-10-15 08:01:58] INFO: https://icm.pieq.ai/product 29 requests, TTFB: 1.37s, firstPaint: 1.44s, FCP: 1.44s, DOMContentLoaded: 1.38s, LCP: 3.31s, CLS: 0.0035, TBT: 0ms, CPUBenchmark: 45ms, Load: 1.38s
+[2026-10-15 08:01:58] INFO: https://icm.pieq.ai/commissions/statement-setup 33 requests, TTFB: 1.26s, firstPaint: 1.36s, FCP: 1.36s, DOMContentLoaded: 1.28s, LCP: 3.21s, CLS: 0.0035, TBT: 0ms, CPUBenchmark: 45ms, Load: 1.28s
+[2026-10-15 08:01:58] INFO: https://icm.pieq.ai/advance/overview 34 requests, TTFB: 1.36s, firstPaint: 1.44s, FCP: 1.44s, DOMContentLoaded: 1.37s, LCP: 3.29s, CLS: 0.0055, TBT: 40ms, CPUBenchmark: 46ms, Load: 1.37s
+[2026-10-15 08:01:58] INFO: https://icm.pieq.ai/advance/advance-setup 14 requests, TTFB: 1.34s, firstPaint: 1.46s, FCP: 1.46s, DOMContentLoaded: 1.36s, LCP: 3.08s, CLS: 0.0035, TBT: 7ms, CPUBenchmark: 45ms, Load: 1.36s
+[2026-10-15 08:01:58] INFO: https://icm.pieq.ai/commission-processing/upload-statement 16 requests, TTFB: 1.33s, firstPaint: 1.41s, FCP: 1.41s, DOMContentLoaded: 1.34s, LCP: 3.74s, CLS: 0.0035, TBT: 83ms, CPUBenchmark: 50ms, Load: 1.34s
+[2026-10-15 08:01:58] INFO: https://icm.pieq.ai/payment-processing/disbursement-history 13 requests, TTFB: 1.37s, firstPaint: 1.46s, FCP: 1.46s, DOMContentLoaded: 1.39s, LCP: 3.14s, CLS: 0.0049, TBT: 0ms, CPUBenchmark: 46ms, Load: 1.39s
+[2026-10-15 08:01:58] INFO: https://icm.pieq.ai/payment-processing/miscellaneous-charges 11 requests, TTFB: 1.27s, firstPaint: 1.38s, FCP: 1.38s, DOMContentLoaded: 1.29s, LCP: 3.01s, CLS: 0.0049, TBT: 0ms, CPUBenchmark: 46ms, Load: 1.29s
+[2026-10-15 08:02:00] INFO: HTML stored in /Users/kesavaramanrajendran/Documents/Pieq - Automation/ICM-Performance/sitespeed-result/dashboard_agency_owner_js/2026-10-15-07-58-03
+[PASS] Agency Owner test completed.
+
+[3/3] Running Agent performance test...
+[2026-10-15 08:02:01] INFO: Versions OS: darwin 25.6.0 nodejs: v22.20.0 sitespeed.io: 42.6.0 browsertime: 28.3.0 coach: 9.2.1
+[2026-10-15 08:02:01] INFO: Running tests using Chrome - 1 iteration(s)
+[2026-10-15 08:02:02] INFO: Navigating to url https://icm.pieq.ai/ iteration 1
+[2026-10-15 08:02:11] INFO: Filled #username
+[2026-10-15 08:02:12] INFO: The AndWait methods are deprecated. Use commands.click(selector, { wait: true }) instead.
+[2026-10-15 08:02:19] INFO: Filled #password
+[2026-10-15 08:02:19] INFO: The AndWait methods are deprecated. Use commands.click(selector, { wait: true }) instead.
+[2026-10-15 08:02:26] INFO: Start to measure Dashboard
+[2026-10-15 08:02:26] INFO: Navigating to url https://icm.pieq.ai/dashboard/agent iteration 1
+[2026-10-15 08:02:38] INFO: Take after page complete check screenshot
+[2026-10-15 08:02:39] INFO: Take cumulative layout shift screenshot
+[2026-10-15 08:02:39] INFO: Take largest contentful paint screenshot
+[2026-10-15 08:02:40] INFO: Start to measure Book of Business
+[2026-10-15 08:02:40] INFO: Navigating to url https://icm.pieq.ai/book-of-business iteration 1
+[2026-10-15 08:02:52] INFO: Take after page complete check screenshot
+[2026-10-15 08:02:53] INFO: Take cumulative layout shift screenshot
+[2026-10-15 08:02:53] INFO: Take largest contentful paint screenshot
+[2026-10-15 08:02:54] INFO: Start to measure Ledger
+[2026-10-15 08:02:54] INFO: Navigating to url https://icm.pieq.ai/ledger iteration 1
+[2026-10-15 08:03:06] INFO: Take after page complete check screenshot
+[2026-10-15 08:03:06] INFO: Take cumulative layout shift screenshot
+[2026-10-15 08:03:07] INFO: Take largest contentful paint screenshot
+[2026-10-15 08:03:10] INFO: https://icm.pieq.ai/dashboard/agent 17 requests, TTFB: 1.25s, firstPaint: 1.31s, FCP: 1.31s, DOMContentLoaded: 1.25s, LCP: 3.12s, CLS: 0.1686, TBT: 0ms, CPUBenchmark: 47ms, Load: 1.25s
+[2026-10-15 08:03:10] INFO: https://icm.pieq.ai/book-of-business 32 requests, TTFB: 1.28s, firstPaint: 1.36s, FCP: 1.36s, DOMContentLoaded: 1.29s, LCP: 3.38s, CLS: 0.0035, TBT: 0ms, CPUBenchmark: 46ms, Load: 1.29s
+[2026-10-15 08:03:10] INFO: https://icm.pieq.ai/ledger 30 requests, TTFB: 1.24s, firstPaint: 1.33s, FCP: 1.33s, DOMContentLoaded: 1.26s, LCP: 3.33s, CLS: 0.0035, TBT: 0ms, CPUBenchmark: 47ms, Load: 1.26s
+[2026-10-15 08:03:12] INFO: HTML stored in /Users/kesavaramanrajendran/Documents/Pieq - Automation/ICM-Performance/sitespeed-result/dashboard_agent_js/2026-10-15-08-02-01
+[PASS] Agent test completed.
+
+Building custom dashboards...
+Wrote /Users/kesavaramanrajendran/Documents/Pieq - Automation/ICM-Performance/custom-dashboard/index.html
+Ops Manager  (sitespeed-result/dashboard_op_manager_js/2026-10-15-07-54-03): Dashboard, Policy, Statement History, Needs Attention, Payable, user-management, carriers, agents, product, statement-setup, overview, advance-setup, upload-statement, disbursement-history, miscellaneous-charges
+Agency Owner  (sitespeed-result/dashboard_agency_owner_js/2026-10-15-07-58-03): Agency Owner, Policy, Statement History, Needs Attention, Payable, user-management, carriers, agents, product, statement-setup, overview, advance-setup, upload-statement, disbursement-history, miscellaneous-charges
+Agent  (sitespeed-result/dashboard_agent_preprod_js/2026-09-15-08-14-26): agent, book-of-business, ledger
+
+============================================================
+ All 3 role tests completed successfully.
+============================================================
+
+Custom dashboard (latest): custom-dashboard/index.html
+===== run-all-roles.sh finished (code 0) 2026-10-15 08:03:12 =====
